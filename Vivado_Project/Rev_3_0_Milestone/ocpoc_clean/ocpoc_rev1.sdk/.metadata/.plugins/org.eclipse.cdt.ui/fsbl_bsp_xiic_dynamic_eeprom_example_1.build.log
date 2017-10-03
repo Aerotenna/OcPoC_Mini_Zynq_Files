@@ -1,0 +1,13 @@
+12:07:24 **** Build of configuration Debug for project fsbl_bsp_xiic_dynamic_eeprom_example_1 ****
+make all 
+'Building file: ../src/xiic_dynamic_eeprom_example.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xiic_dynamic_eeprom_example.o" -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xiic_dynamic_eeprom_example.d" -MT"src/xiic_dynamic_eeprom_example.d" -o "src/xiic_dynamic_eeprom_example.o" "../src/xiic_dynamic_eeprom_example.c"
+../src/xiic_dynamic_eeprom_example.c:108:19: fatal error: xintc.h: No such file or directory
+ #include "xintc.h"
+                   ^
+compilation terminated.
+make: *** [src/xiic_dynamic_eeprom_example.o] Error 1
+
+12:07:25 Build Finished (took 1s.29ms)
+

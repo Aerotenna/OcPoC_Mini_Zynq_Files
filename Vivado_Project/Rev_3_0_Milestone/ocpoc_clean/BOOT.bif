@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]/home/hding/Projects/kanza79/FPGA/binaries/7010fsbl.elf
+	/home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.runs/impl_1/ocpoc_top.bit
+	/home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/u-boot.elf
+}

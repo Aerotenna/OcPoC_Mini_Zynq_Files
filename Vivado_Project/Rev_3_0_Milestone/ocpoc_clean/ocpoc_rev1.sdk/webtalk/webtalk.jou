@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# 
+# Start of session at: Tue Oct  3 16:11:59 2017
+# Process ID: 30005
+# Current directory: /home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.sdk/webtalk/webtalk.log
+# Journal file: /home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

@@ -1,0 +1,376 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:04 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 2) to (Rev. 1)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:04 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_xadc_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_xadc_wiz_0_0 from xilinx.com:ip:xadc_wiz:3.2 to xilinx.com:ip:xadc_wiz:3.3 (Rev. 3)
+
+2. Upgrade messages
+-------------------
+
+Set parameter ADC_OFFSET_AND_GAIN_CALIBRATION to value true (source 'default')
+Set parameter SENSOR_OFFSET_AND_GAIN_CALIBRATION to value true (source 'default')
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:04 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_rst_processing_system7_0_50M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_rst_processing_system7_0_50M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 8) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:04 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_processing_system7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_processing_system7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 8) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:04 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5) from (Rev. 3) to (Rev. 5)
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+Added parameter PCW_GP0_NUM_WRITE_THREADS with value 4 (source 'default')
+Added parameter PCW_GP0_NUM_READ_THREADS with value 4 (source 'default')
+Added parameter PCW_GP1_NUM_WRITE_THREADS with value 4 (source 'default')
+Added parameter PCW_GP1_NUM_READ_THREADS with value 4 (source 'default')
+Added parameter PCW_GP0_EN_MODIFIABLE_TXN with value 0 (source 'default')
+Added parameter PCW_GP1_EN_MODIFIABLE_TXN with value 0 (source 'default')
+Set parameter PCW_UIPARAM_DDR_BOARD_DELAY0 to value 0.25 (source 'default')
+Set parameter PCW_UIPARAM_DDR_BOARD_DELAY1 to value 0.25 (source 'default')
+Set parameter PCW_UIPARAM_DDR_BOARD_DELAY2 to value 0.25 (source 'default')
+Set parameter PCW_UIPARAM_DDR_BOARD_DELAY3 to value 0.25 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:04 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_6_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_6_0 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 9) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:04 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_5_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_5_0 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 9) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:03 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_4_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_4_1 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 9) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:03 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_4_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_4_0 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 9) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:03 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_1_1 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 9) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:03 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_1_0 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 9) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:03 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_0_1 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 9) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:03 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_0_0 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 9) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:03 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_iic_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_iic_1_1 (xilinx.com:ip:axi_iic:2.0) from (Rev. 10) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:03 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_iic_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_iic_1_0 (xilinx.com:ip:axi_iic:2.0) from (Rev. 10) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:03 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_iic_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_iic_0_1 (xilinx.com:ip:axi_iic:2.0) from (Rev. 10) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Tue Oct  3 14:36:03 2017
+| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_iic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_iic_0_0 (xilinx.com:ip:axi_iic:2.0) from (Rev. 10) to (Rev. 16)
+

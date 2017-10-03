@@ -1,0 +1,1285 @@
+11:17:54 INFO  : Launching XSDB server: xsdb.bat D:/vivado/Vivado2015.4/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:17:56 INFO  : XSDB server has started successfully.
+11:17:57 INFO  : Processing command line option -hwspec E:/zynq/ocpoc_rev1/ocpoc_rev1.sdk/ocpoc_top.hdf.
+11:21:59 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\Administrator\Desktop\zynq\0401\BOOT.bin
+11:21:59 INFO  : Creating new bif file C:\Users\Administrator\Desktop\zynq\0401\output.bif
+11:22:00 INFO  : Bootgen command execution is done.
+17:23:53 INFO  : Launching XSDB server: xsdb.bat D:/vivado/Vivado2015.4/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:23:55 INFO  : XSDB server has started successfully.
+17:24:36 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\Administrator\Desktop\zynq\0401\BOOT.bin
+17:24:36 INFO  : Creating new bif file C:\Users\Administrator\Desktop\zynq\0401\output.bif
+17:24:37 INFO  : Bootgen command execution is done.
+17:37:12 INFO  : Launching XSDB server: xsdb.bat D:/vivado/Vivado2015.4/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:37:15 INFO  : XSDB server has started successfully.
+17:37:56 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\Administrator\Desktop\zynq\0401\test\BOOT.bin
+17:37:56 INFO  : Creating new bif file C:\Users\Administrator\Desktop\zynq\0401\test\output.bif
+17:37:57 INFO  : Bootgen command execution is done.
+14:52:40 INFO  : Launching XSDB server: xsdb.bat D:/vivado/Vivado2015.4/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:52:41 INFO  : XSDB server has started successfully.
+14:53:22 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\Administrator\Desktop\zynq\0413\BOOT.bin
+14:53:22 INFO  : Creating new bif file C:\Users\Administrator\Desktop\zynq\0413\output.bif
+14:53:23 INFO  : Bootgen command execution is done.
+11:02:08 INFO  : Launching XSDB server: xsdb.bat D:/vivado/Vivado2015.4/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:02:10 INFO  : XSDB server has started successfully.
+11:03:18 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\Administrator\Desktop\zynq\0502_addPPMRC\BOOT.bin
+11:03:18 INFO  : Creating new bif file C:\Users\Administrator\Desktop\zynq\0502_addPPMRC\output.bif
+11:03:18 INFO  : Bootgen command execution is done.
+16:35:05 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:35:09 INFO  : XSDB server has started successfully.
+16:35:10 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+16:35:20 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/project_1.sdk/ocpoc_top.hdf.
+16:36:36 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:36:36 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:36:36 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:36:36 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:36:36 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:36:36 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+16:36:36 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:36:36 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:36:36 ERROR : Failed in generating sources
+16:36:36 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+16:40:31 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:31 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:31 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:40:31 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:31 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:31 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+16:40:31 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:31 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:31 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:31 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:31 ERROR : Failed to get_connected_periphs
+Reason: ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+
+16:40:33 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:33 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:33 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:40:33 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:33 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:33 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+16:40:33 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:33 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:33 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:33 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:45 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:40:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:45 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+16:40:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:45 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:59 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:59 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:59 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:40:59 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:59 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:59 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+16:40:59 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:59 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:40:59 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:40:59 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:40:59 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:41:00 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+16:41:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:41:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:41:03 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:41:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:41:03 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:41:03 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+16:41:38 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:41:38 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:41:39 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:41:39 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:41:39 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:41:39 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+16:41:39 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:41:39 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:41:39 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:41:39 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:41:39 ERROR : Failed to get_connected_periphs
+Reason: ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+
+16:44:25 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:44:25 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:44:25 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:44:25 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:44:25 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:44:25 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+16:44:25 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:44:25 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:44:25 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/device_tree_bsp_0/system.mss line 20 - No IP instance named RC_Receiver_Input_0 present in hardware design
+
+16:44:25 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:44:26 ERROR : Failed to get_connected_periphs
+Reason: ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+
+16:55:20 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:55:21 INFO  : XSDB server has started successfully.
+16:55:25 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+16:55:25 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/opoc_rev1.sdk/ocpoc_top.hdf.
+16:58:47 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:58:48 INFO  : XSDB server has started successfully.
+16:58:49 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+16:58:55 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+16:59:06 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+09:08:54 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:08:57 INFO  : XSDB server has started successfully.
+09:09:02 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+09:09:02 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+09:09:03 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_3.
+09:09:09 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+09:41:55 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+09:41:55 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+09:41:55 INFO  : Bootgen command execution is done.
+10:39:22 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:39:23 INFO  : XSDB server has started successfully.
+10:39:23 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+10:39:23 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+10:39:24 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_3.
+10:39:32 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+10:40:53 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+10:40:53 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+10:40:54 INFO  : Bootgen command execution is done.
+10:58:06 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:58:08 INFO  : XSDB server has started successfully.
+10:58:15 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+10:58:15 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+10:58:22 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+11:01:33 ERROR : Failed to call GENERATE_APP 
+java.io.IOException: Command [C 62 xsdb eval "::hsi::utils::generate_app_template -hw C:/Users/Aerote...] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+11:01:33 ERROR : 
+java.lang.RuntimeException: Failed to call GENERATE_APP 
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.handleResult(XsdbCommandUtils.java:306)
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:256)
+	at com.xilinx.sdk.appwiz.internal.AppGen.generate(AppGen.java:555)
+	at com.xilinx.sdk.appwiz.core.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:85)
+	at com.xilinx.sdk.appwiz.core.AppCreationHandler.createApplication(AppCreationHandler.java:123)
+	at com.xilinx.sdk.appwiz.core.AppCreationHandler$1.run(AppCreationHandler.java:62)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2327)
+	at com.xilinx.sdk.appwiz.core.AppCreationHandler.execute(AppCreationHandler.java:58)
+	at com.xilinx.sdk.appwiz.ApplicationWizard.createNewProject(ApplicationWizard.java:120)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard.doRun(NewCProjectWizard.java:293)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard$1$1$1.run(NewCProjectWizard.java:235)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:69)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1028)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard$1$1.run(NewCProjectWizard.java:245)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:388)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1028)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard.invokeRunnable(NewCProjectWizard.java:272)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard.performFinish(NewCProjectWizard.java:162)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:827)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:432)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:628)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:135)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.io.IOException: Command [C 62 xsdb eval "::hsi::utils::generate_app_template -hw C:/Users/Aerote...] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+11:01:35 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:05:19 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:05:20 INFO  : XSDB server has started successfully.
+11:05:20 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+11:05:21 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+11:05:21 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_1.
+11:08:15 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:08:16 INFO  : XSDB server has started successfully.
+11:08:19 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+11:08:19 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+11:08:20 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_1.
+11:12:54 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+11:12:54 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+11:12:55 INFO  : Bootgen command execution is done.
+11:28:26 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+11:28:26 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+11:28:26 INFO  : Bootgen command execution is done.
+12:09:37 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+12:09:37 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+12:09:38 INFO  : Bootgen command execution is done.
+13:00:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1395] uartns is not Valid Driver for axi_uart16550_0
+
+13:00:21 ERROR : (SwPlatform) Failed to call setDriver
+Reason: ERROR: [Common 17-39] 'set_property' failed due to earlier errors.
+
+13:00:29 INFO  : No changes in MSS file content so not generating sources.
+13:00:53 INFO  : No changes in MSS file content so not generating sources.
+13:08:31 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+13:08:31 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+13:08:32 INFO  : Bootgen command execution is done.
+16:15:26 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1498857309461,  Project:1498838138098
+16:15:26 INFO  : Project ocpoc_top_hw_platform_1's source hardware specification located at C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:15:32 INFO  : Project ocpoc_top_hw_platform_1's source hardware specification location will not be monitored anymore.
+16:16:27 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:16:30 INFO  : XSDB server has started successfully.
+16:16:31 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+16:16:40 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+16:18:13 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:18:14 INFO  : XSDB server has started successfully.
+16:18:18 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+16:18:18 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+16:18:19 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+16:18:23 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+16:25:14 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+16:25:14 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+16:25:15 INFO  : Bootgen command execution is done.
+17:06:11 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:06:12 INFO  : XSDB server has started successfully.
+17:06:12 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+17:06:21 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+17:06:22 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+17:06:27 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+17:06:50 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+17:06:50 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+17:06:50 INFO  : Bootgen command execution is done.
+08:53:32 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:53:35 INFO  : XSDB server has started successfully.
+08:53:36 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+08:53:47 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+08:53:48 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+08:53:53 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+08:54:29 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+08:54:29 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+08:54:30 INFO  : Bootgen command execution is done.
+09:10:32 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+09:10:32 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+09:10:33 INFO  : Bootgen command execution is done.
+09:44:32 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+09:44:32 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+09:44:33 INFO  : Bootgen command execution is done.
+09:45:40 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+09:45:40 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+09:45:41 INFO  : Bootgen command execution is done.
+10:07:23 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+10:07:23 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+10:07:24 INFO  : Bootgen command execution is done.
+11:10:37 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:10:41 INFO  : XSDB server has started successfully.
+11:10:42 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+11:10:42 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+11:10:43 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+11:10:49 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+11:11:26 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+11:11:26 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+11:11:27 INFO  : Bootgen command execution is done.
+11:26:12 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+11:26:12 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+11:26:13 INFO  : Bootgen command execution is done.
+11:26:25 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+11:26:25 INFO  : Bootgen command execution is done.
+11:39:17 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:39:18 INFO  : XSDB server has started successfully.
+11:39:21 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+11:39:21 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+11:39:21 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+11:39:28 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+11:44:21 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+11:44:21 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+11:44:22 INFO  : Bootgen command execution is done.
+11:58:23 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+11:58:23 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+11:58:23 INFO  : Bootgen command execution is done.
+13:46:01 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:46:03 INFO  : XSDB server has started successfully.
+13:46:06 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+13:46:06 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+13:46:07 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+13:46:11 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1499366655315,  Project:1498857309461
+13:46:11 INFO  : The hardware specification for project 'ocpoc_top_hw_platform_0' is different from C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+13:46:11 INFO  : Copied contents of C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf into \ocpoc_top_hw_platform_0\system.hdf.
+13:46:15 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:46:22 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+13:46:27 INFO  : 
+13:46:39 INFO  : 
+13:46:40 INFO  : Updating hardware inferred compiler options for fsbl.
+13:46:40 INFO  : Clearing existing target manager status.
+13:47:33 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+13:47:33 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+13:47:34 INFO  : Bootgen command execution is done.
+13:52:25 ERROR : Failed to call GENERATE_APP 
+java.io.IOException: Command [C 80 xsdb eval "::hsi::utils::generate_app_template -hw C:/Users/Aerote...] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+13:52:25 ERROR : 
+java.lang.RuntimeException: Failed to call GENERATE_APP 
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.handleResult(XsdbCommandUtils.java:306)
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:256)
+	at com.xilinx.sdk.appwiz.internal.AppGen.generate(AppGen.java:555)
+	at com.xilinx.sdk.appwiz.core.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:85)
+	at com.xilinx.sdk.appwiz.core.AppCreationHandler.createApplication(AppCreationHandler.java:123)
+	at com.xilinx.sdk.appwiz.core.AppCreationHandler$1.run(AppCreationHandler.java:62)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2327)
+	at com.xilinx.sdk.appwiz.core.AppCreationHandler.execute(AppCreationHandler.java:58)
+	at com.xilinx.sdk.appwiz.ApplicationWizard.createNewProject(ApplicationWizard.java:120)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard.doRun(NewCProjectWizard.java:293)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard$1$1$1.run(NewCProjectWizard.java:235)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:69)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1028)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard$1$1.run(NewCProjectWizard.java:245)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:388)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1028)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard.invokeRunnable(NewCProjectWizard.java:272)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard.performFinish(NewCProjectWizard.java:162)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:827)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:432)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:628)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:135)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.io.IOException: Command [C 80 xsdb eval "::hsi::utils::generate_app_template -hw C:/Users/Aerote...] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+13:52:26 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:53:16 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:53:18 INFO  : XSDB server has started successfully.
+13:53:21 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+13:53:25 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+13:53:26 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+13:53:41 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+13:54:26 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:54:27 INFO  : XSDB server has started successfully.
+13:54:27 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+13:54:27 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+13:54:28 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+13:54:34 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+13:59:05 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+13:59:05 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+13:59:06 INFO  : Bootgen command execution is done.
+10:09:43 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:09:45 INFO  : XSDB server has started successfully.
+10:09:47 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+10:09:55 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+10:09:56 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+10:09:56 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1499699272093,  Project:1499366655315
+10:09:56 INFO  : The hardware specification for project 'ocpoc_top_hw_platform_0' is different from C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+10:09:56 INFO  : Copied contents of C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf into \ocpoc_top_hw_platform_0\system.hdf.
+10:10:01 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:10:10 INFO  : 
+10:10:15 INFO  : 
+10:10:28 INFO  : 
+10:10:32 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+10:10:37 INFO  : BSP Project P/device_tree_bsp_1 has been successfully migrated.
+10:10:39 INFO  : Updating hardware inferred compiler options for fsbl.
+10:10:39 INFO  : Clearing existing target manager status.
+10:15:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:29:49 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:29:52 INFO  : XSDB server has started successfully.
+10:29:53 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+10:30:01 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+10:30:02 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+10:30:02 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1499700520665,  Project:1499699272093
+10:30:02 INFO  : The hardware specification for project 'ocpoc_top_hw_platform_0' is different from C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+10:30:31 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+10:30:36 INFO  : BSP Project P/device_tree_bsp_1 has been successfully migrated.
+10:30:39 INFO  : Copied contents of C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf into \ocpoc_top_hw_platform_0\system.hdf.
+10:30:43 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:30:49 INFO  : 
+10:30:54 INFO  : 
+10:31:03 INFO  : 
+10:31:04 INFO  : Updating hardware inferred compiler options for fsbl.
+10:31:04 INFO  : Clearing existing target manager status.
+10:54:34 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+10:54:34 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+10:54:35 INFO  : Bootgen command execution is done.
+11:04:42 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:21:52 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:21:54 INFO  : XSDB server has started successfully.
+12:21:58 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+12:22:10 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+12:22:11 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+12:22:11 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1499879900300,  Project:1499700520665
+12:22:11 INFO  : The hardware specification for project 'ocpoc_top_hw_platform_0' is different from C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+12:22:17 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+12:22:22 INFO  : BSP Project P/device_tree_bsp_1 has been successfully migrated.
+12:22:52 INFO  : Copied contents of C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf into \ocpoc_top_hw_platform_0\system.hdf.
+12:22:57 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:23:02 INFO  : 
+12:23:12 INFO  : 
+12:23:24 INFO  : 
+12:23:25 INFO  : Updating hardware inferred compiler options for fsbl.
+12:23:25 INFO  : Clearing existing target manager status.
+12:39:30 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+12:39:31 INFO  : Bootgen command execution is done.
+14:25:23 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:14:08 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:14:10 INFO  : XSDB server has started successfully.
+15:14:17 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+15:14:26 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+15:14:27 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+15:14:36 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+15:14:41 INFO  : BSP Project P/device_tree_bsp_1 has been successfully migrated.
+15:15:37 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+15:15:37 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+15:15:38 INFO  : Bootgen command execution is done.
+15:33:57 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:33:58 INFO  : XSDB server has started successfully.
+15:33:58 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+15:34:05 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+15:34:06 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+15:34:06 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1500323629258,  Project:1499879900300
+15:34:06 INFO  : The hardware specification for project 'ocpoc_top_hw_platform_0' is different from C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+15:34:06 INFO  : Copied contents of C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf into \ocpoc_top_hw_platform_0\system.hdf.
+15:34:10 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:34:15 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+15:34:20 INFO  : 
+15:34:29 INFO  : 
+15:34:42 INFO  : 
+15:34:47 INFO  : BSP Project P/device_tree_bsp_1 has been successfully migrated.
+15:34:48 INFO  : Updating hardware inferred compiler options for fsbl.
+15:34:48 INFO  : Clearing existing target manager status.
+15:35:23 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+15:35:23 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+15:35:24 INFO  : Bootgen command execution is done.
+15:36:00 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:38:29 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:38:32 INFO  : XSDB server has started successfully.
+09:38:34 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+09:38:41 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+09:38:42 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+09:38:42 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1500388672328,  Project:1500323629258
+09:38:42 INFO  : The hardware specification for project 'ocpoc_top_hw_platform_0' is different from C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+09:39:15 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+09:39:19 INFO  : BSP Project P/device_tree_bsp_1 has been successfully migrated.
+09:39:23 INFO  : Copied contents of C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf into \ocpoc_top_hw_platform_0\system.hdf.
+09:39:27 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+09:39:32 INFO  : 
+09:39:38 INFO  : 
+09:39:49 INFO  : 
+09:39:50 INFO  : Updating hardware inferred compiler options for fsbl.
+09:39:50 INFO  : Clearing existing target manager status.
+09:42:13 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+09:42:13 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+09:42:14 INFO  : Bootgen command execution is done.
+09:45:23 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:47:13 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:47:18 INFO  : XSDB server has started successfully.
+10:47:19 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+10:47:20 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+10:47:20 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+10:47:30 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+10:50:14 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+10:50:14 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+10:50:15 INFO  : Bootgen command execution is done.
+11:03:10 INFO  : Saving repository preferences.
+11:03:10 INFO  : Reading in cores from global repositories: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+		 C:\Users\Aerotenna\Documents\u-boot-xlnx
+11:03:11 INFO  : Cleaning BSP projects in the workspace.
+15:21:26 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:21:30 INFO  : XSDB server has started successfully.
+15:21:33 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+		 C:\Users\Aerotenna\Documents\u-boot-xlnx
+15:21:34 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+15:21:35 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+15:21:46 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+15:23:02 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+15:23:02 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+15:23:04 INFO  : Bootgen command execution is done.
+15:55:02 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:55:05 INFO  : XSDB server has started successfully.
+15:55:06 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+		 C:\Users\Aerotenna\Documents\u-boot-xlnx
+15:55:12 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+15:55:12 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+15:55:20 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+15:56:17 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+15:56:18 INFO  : Bootgen command execution is done.
+15:54:27 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:54:31 INFO  : XSDB server has started successfully.
+15:54:38 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+		 C:\Users\Aerotenna\Documents\u-boot-xlnx
+15:54:47 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+15:54:48 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+15:54:51 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1503003166675,  Project:1500388672328
+15:54:51 INFO  : The hardware specification for project 'ocpoc_top_hw_platform_0' is different from C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+15:54:51 INFO  : Copied contents of C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf into \ocpoc_top_hw_platform_0\system.hdf.
+15:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1597] SwCore axi_xadc is not found in Repositories
+ERROR: [Hsi 55-1594] Core axi_xadc of version  not found in repositories
+
+15:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+15:54:55 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+15:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1597] SwCore axi_xadc is not found in Repositories
+
+15:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core axi_xadc of version  not found in repositories
+
+15:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+15:54:55 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+15:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1597] SwCore axi_xadc is not found in Repositories
+
+15:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core axi_xadc of version  not found in repositories
+
+15:54:55 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+15:54:55 ERROR : Failed in generating sources
+15:54:55 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+15:54:57 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:55:07 ERROR : (XSDB Server)ERROR: [Hsi 55-1597] SwCore axi_xadc is not found in Repositories
+
+15:55:07 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core axi_xadc of version  not found in repositories
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+15:55:07 ERROR : Failed to call sync_sw_with_hw_change
+Reason: ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+
+15:55:07 ERROR : Error updating BSP project MSS files.
+15:55:08 INFO  : Updating hardware inferred compiler options for fsbl.
+15:55:08 INFO  : Clearing existing target manager status.
+15:55:10 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:55:11 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:10:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1597] SwCore axi_xadc is not found in Repositories
+
+16:10:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core axi_xadc of version  not found in repositories
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:10:05 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:10:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1597] SwCore axi_xadc is not found in Repositories
+
+16:10:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core axi_xadc of version  not found in repositories
+
+16:10:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:10:05 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+16:10:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1597] SwCore axi_xadc is not found in Repositories
+
+16:10:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core axi_xadc of version  not found in repositories
+
+16:10:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:10:06 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:10:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1597] SwCore axi_xadc is not found in Repositories
+
+16:10:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core axi_xadc of version  not found in repositories
+
+16:10:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:10:06 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+16:10:40 ERROR : Failed to call GENERATE_APP 
+java.io.IOException: Command [C 143 xsdb eval "::hsi::utils::generate_app_template -hw C:/Users/Aerot...] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+16:10:40 ERROR : 
+java.lang.RuntimeException: Failed to call GENERATE_APP 
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.handleResult(XsdbCommandUtils.java:306)
+	at com.xilinx.sdk.xsdb.XsdbCommandUtils.executeAndRespond(XsdbCommandUtils.java:256)
+	at com.xilinx.sdk.appwiz.internal.AppGen.generate(AppGen.java:555)
+	at com.xilinx.sdk.appwiz.core.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:85)
+	at com.xilinx.sdk.appwiz.core.AppCreationHandler.createApplication(AppCreationHandler.java:123)
+	at com.xilinx.sdk.appwiz.core.AppCreationHandler$1.run(AppCreationHandler.java:62)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2327)
+	at com.xilinx.sdk.appwiz.core.AppCreationHandler.execute(AppCreationHandler.java:58)
+	at com.xilinx.sdk.appwiz.ApplicationWizard.createNewProject(ApplicationWizard.java:120)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard.doRun(NewCProjectWizard.java:293)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard$1$1$1.run(NewCProjectWizard.java:235)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:69)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1028)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard$1$1.run(NewCProjectWizard.java:245)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:173)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:388)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1028)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard.invokeRunnable(NewCProjectWizard.java:272)
+	at org.eclipse.cdt.ui.wizards.NewCProjectWizard.performFinish(NewCProjectWizard.java:162)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:827)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:432)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:628)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:135)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.io.IOException: Command [C 143 xsdb eval "::hsi::utils::generate_app_template -hw C:/Users/Aerot...] aborted
+	at org.eclipse.tcf.core.AbstractChannel$9.run(AbstractChannel.java:753)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:162)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:254)
+16:10:42 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:12:43 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:12:44 INFO  : XSDB server has started successfully.
+16:12:44 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+		 C:\Users\Aerotenna\Documents\u-boot-xlnx
+16:12:46 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+16:12:47 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_0.
+16:13:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1597] SwCore axi_xadc is not found in Repositories
+ERROR: [Hsi 55-1594] Core axi_xadc of version  not found in repositories
+
+16:13:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:13:02 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+16:13:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1597] SwCore axi_xadc is not found in Repositories
+
+16:13:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core axi_xadc of version  not found in repositories
+
+16:13:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:13:02 INFO  : Unable to read in MSS file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\ocpoc_rev1.sdk\device_tree_bsp_0\system.mss : null
+16:13:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1597] SwCore axi_xadc is not found in Repositories
+
+16:13:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core axi_xadc of version  not found in repositories
+
+16:13:02 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+16:13:03 ERROR : Failed in generating sources
+16:13:03 INFO  : BSP Project P/device_tree_bsp_0 has been successfully migrated.
+16:13:06 INFO  : BSP Project P/device_tree_bsp_1 has been successfully migrated.
+16:14:50 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:14:51 INFO  : XSDB server has started successfully.
+16:14:51 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+		 C:\Users\Aerotenna\Documents\u-boot-xlnx
+16:14:53 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+16:14:54 ERROR : Error occurred while creating hardware platform ocpoc_top_hw_platform_0 from sysdef
+org.eclipse.core.internal.resources.ResourceException: Resource '/ocpoc_top_hw_platform_0/system.hdf' already exists.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:320)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:307)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at com.xilinx.sdk.hw.internal.HwProjectCreator.createHwProjectFromZip(HwProjectCreator.java:103)
+	at com.xilinx.sdk.hw.HwProjectUtil.internalCreate(HwProjectUtil.java:214)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:165)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:152)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:127)
+	at com.xilinx.sdk.startup.InitSDK.processHwSpecArgumentTask(InitSDK.java:417)
+	at com.xilinx.sdk.startup.InitSDK.access$7(InitSDK.java:399)
+	at com.xilinx.sdk.startup.InitSDK$11.run(InitSDK.java:350)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+16:27:17 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:27:18 INFO  : XSDB server has started successfully.
+16:27:18 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+		 C:\Users\Aerotenna\Documents\u-boot-xlnx
+16:27:27 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+16:27:33 INFO  : BSP Project P/device_tree_bsp_1 has been successfully migrated.
+16:35:39 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+16:35:40 INFO  : Bootgen command execution is done.
+16:39:22 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+16:39:22 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+16:39:23 INFO  : Bootgen command execution is done.
+16:59:51 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1503007191288,  Project:1502135919816
+16:59:51 INFO  : Project ocpoc_top_hw_platform_1's source hardware specification located at C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:00:29 INFO  : Copied contents of C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf into \ocpoc_top_hw_platform_1\system.hdf.
+17:00:34 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:00:34 INFO  : Clearing existing target manager status.
+17:00:36 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:00:36 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:01:06 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+17:01:07 INFO  : Bootgen command execution is done.
+17:21:43 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+17:21:44 INFO  : Bootgen command execution is done.
+09:19:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:19:57 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:19:59 INFO  : XSDB server has started successfully.
+11:20:03 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+		 C:\Users\Aerotenna\Documents\u-boot-xlnx
+11:20:10 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+11:20:11 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_1.
+11:20:21 INFO  : BSP Project P/device_tree_bsp_1 has been successfully migrated.
+11:21:15 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -o C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bin -w on
+11:21:15 INFO  : Overwriting existing bif file C:\Users\Aerotenna\Documents\flight-control\trunk\OcPoC_Zynq_Mini\Rev_2_5_Milestone\ocpoc_clean\BOOT.bif
+11:21:16 INFO  : Bootgen command execution is done.
+16:10:18 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:10:21 INFO  : XSDB server has started successfully.
+16:10:23 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+		 C:\Users\Aerotenna\Documents\u-boot-xlnx
+16:10:30 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+16:10:30 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_1.
+16:10:39 INFO  : BSP Project P/device_tree_bsp_1 has been successfully migrated.
+14:11:08 INFO  : Launching XSDB server: xsdb.bat C:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:11:11 INFO  : XSDB server has started successfully.
+14:11:17 INFO  : Restoring global repository preferences: 
+		 C:\Users\Aerotenna\Documents\device-tree-xlnx
+		 C:\Users\Aerotenna\Documents\u-boot-xlnx
+14:11:25 INFO  : Processing command line option -hwspec C:/Users/Aerotenna/Documents/flight-control/trunk/OcPoC_Zynq_Mini/Rev_2_5_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+14:11:25 INFO  : Checking for hwspec changes in the project ocpoc_top_hw_platform_1.
+14:11:36 INFO  : BSP Project P/device_tree_bsp_1 has been successfully migrated.
+16:04:15 ERROR : Unexpected error while reading linker script.
+org.eclipse.core.internal.resources.ResourceException: Resource '/fsbl/src/lscript.ld' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:335)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:209)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:275)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor.initLscriptEditorPage(LscriptEditor.java:142)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor.setInput(LscriptEditor.java:134)
+	at org.eclipse.ui.forms.editor.FormEditor.init(FormEditor.java:129)
+	at com.xilinx.sdk.lscript.ui.LscriptEditor.init(LscriptEditor.java:60)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:362)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:931)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:151)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:375)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:294)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:536)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:520)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.createElement(PartServiceImpl.java:1253)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1218)
+	at org.eclipse.ui.internal.WorkbenchPage.showPart(WorkbenchPage.java:1309)
+	at org.eclipse.ui.internal.WorkbenchPage.busyShowView(WorkbenchPage.java:1274)
+	at org.eclipse.ui.internal.WorkbenchPage$12.run(WorkbenchPage.java:4316)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.showView(WorkbenchPage.java:4312)
+	at org.eclipse.ui.internal.ide.IDEWorkbenchPlugin$1.run(IDEWorkbenchPlugin.java:367)
+	at org.eclipse.swt.widgets.Display.timerProc(Display.java:5144)
+	at org.eclipse.swt.internal.gtk.OS._gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.internal.gtk.OS.gtk_main_iteration_do(OS.java:9545)
+	at org.eclipse.swt.widgets.ProgressBar.updateBar(ProgressBar.java:304)
+	at org.eclipse.swt.widgets.ProgressBar.setSelection(ProgressBar.java:258)
+	at org.eclipse.jface.dialogs.ProgressIndicator.worked(ProgressIndicator.java:140)
+	at org.eclipse.jface.wizard.ProgressMonitorPart.internalWorked(ProgressMonitorPart.java:282)
+	at org.eclipse.ui.splash.BasicSplashHandler$AbsolutePositionProgressMonitorPart.access$2(BasicSplashHandler.java:1)
+	at org.eclipse.ui.splash.BasicSplashHandler$AbsolutePositionProgressMonitorPart$3.run(BasicSplashHandler.java:110)
+	at org.eclipse.ui.splash.BasicSplashHandler.updateUI(BasicSplashHandler.java:277)
+	at org.eclipse.ui.splash.BasicSplashHandler.access$0(BasicSplashHandler.java:269)
+	at org.eclipse.ui.splash.BasicSplashHandler$AbsolutePositionProgressMonitorPart.internalWorked(BasicSplashHandler.java:103)
+	at org.eclipse.jface.wizard.ProgressMonitorPart.worked(ProgressMonitorPart.java:370)
+	at org.eclipse.ui.internal.Workbench$StartupProgressBundleListener.bundleChanged(Workbench.java:333)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:903)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:213)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:120)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:112)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:156)
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:476)
+	at org.eclipse.osgi.container.Module.start(Module.java:467)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.tracecompass.tmf.core.analysis.TmfAnalysisModuleOutputs.getOutputListeners(TmfAnalysisModuleOutputs.java:85)
+	at org.eclipse.tracecompass.tmf.core.analysis.TmfAnalysisManager.initializeNewModuleListeners(TmfAnalysisManager.java:90)
+	at org.eclipse.tracecompass.tmf.core.analysis.TmfAnalysisManager.initialize(TmfAnalysisManager.java:73)
+	at org.eclipse.tracecompass.internal.tmf.core.Activator.start(Activator.java:88)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.tracecompass.internal.tmf.ui.Activator.start(Activator.java:91)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentDescriptor.createLabelProvider(NavigatorContentDescriptor.java:389)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension$2.run(NavigatorContentExtension.java:152)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.extensions.NavigatorContentExtension.getLabelProvider(NavigatorContentExtension.java:148)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.findStyledText(NavigatorContentServiceLabelProvider.java:165)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceLabelProvider.getStyledText(NavigatorContentServiceLabelProvider.java:153)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider$StyledLabelProviderAdapter.getStyledText(NavigatorDecoratingLabelProvider.java:63)
+	at org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.getStyledText(DelegatingStyledCellLabelProvider.java:206)
+	at org.eclipse.jface.viewers.DecoratingStyledCellLabelProvider.getStyledText(DecoratingStyledCellLabelProvider.java:194)
+	at org.eclipse.ui.internal.navigator.NavigatorDecoratingLabelProvider.getText(NavigatorDecoratingLabelProvider.java:192)
+	at org.eclipse.ui.internal.navigator.framelist.TreeFrame.<init>(TreeFrame.java:75)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.createFrame(TreeViewerFrameSource.java:60)
+	at org.eclipse.ui.internal.navigator.CommonNavigatorFrameSource.createFrame(CommonNavigatorFrameSource.java:41)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getCurrentFrame(TreeViewerFrameSource.java:85)
+	at org.eclipse.ui.internal.navigator.framelist.TreeViewerFrameSource.getFrame(TreeViewerFrameSource.java:97)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.init(FrameList.java:166)
+	at org.eclipse.ui.internal.navigator.framelist.FrameList.<init>(FrameList.java:55)
+	at org.eclipse.ui.navigator.CommonViewer.createFrameList(CommonViewer.java:539)
+	at org.eclipse.ui.navigator.CommonNavigator.createPartControl(CommonNavigator.java:215)
+	at org.eclipse.ui.navigator.resources.ProjectExplorer.createPartControl(ProjectExplorer.java:88)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:150)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityView.createPartControl(CompatibilityView.java:143)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:340)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:931)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:151)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:375)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:294)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:105)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:74)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:56)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:129)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:536)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:520)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:70)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:975)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:49)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:63)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:669)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:142)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:70)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:725)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:665)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:757)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:728)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1059)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+16:04:16 INFO  : Registering command handlers for SDK TCF services
+16:04:17 INFO  : Launching XSCT server: xsct -n -interactive /home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.sdk/temp_xsdb_launch_script.tcl
+16:04:18 INFO  : XSCT server has started successfully.
+16:04:18 INFO  : Successfully done setting XSCT server connection channel  
+16:04:18 INFO  : Successfully done setting SDK workspace  
+16:04:18 INFO  : Processing command line option -hwspec /home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+16:06:31 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -arch zynq -o /home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/BOOT.bin -w on
+16:06:31 INFO  : Overwriting existing bif file /home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/BOOT.bif
+16:06:32 INFO  : Bootgen command execution is done.

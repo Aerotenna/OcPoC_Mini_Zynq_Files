@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
-| Date         : Tue Oct  3 16:00:46 2017
-| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Fri Dec  1 14:41:24 2017
+| Host         : aerotennaKS running 64-bit unknown
 | Command      : report_utilization -file ocpoc_top_utilization_synth.rpt -pb ocpoc_top_utilization_synth.pb
 | Design       : ocpoc_top
 | Device       : 7z010clg400-1
@@ -30,15 +30,15 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| Slice LUTs*                | 8177 |     0 |     17600 | 46.46 |
-|   LUT as Logic             | 7886 |     0 |     17600 | 44.81 |
+| Slice LUTs*                | 8198 |     0 |     17600 | 46.58 |
+|   LUT as Logic             | 7907 |     0 |     17600 | 44.93 |
 |   LUT as Memory            |  291 |     0 |      6000 |  4.85 |
 |     LUT as Distributed RAM |    0 |     0 |           |       |
 |     LUT as Shift Register  |  291 |     0 |           |       |
-| Slice Registers            | 7903 |     0 |     35200 | 22.45 |
-|   Register as Flip Flop    | 7903 |     0 |     35200 | 22.45 |
+| Slice Registers            | 7905 |     0 |     35200 | 22.46 |
+|   Register as Flip Flop    | 7905 |     0 |     35200 | 22.46 |
 |   Register as Latch        |    0 |     0 |     35200 |  0.00 |
-| F7 Muxes                   |  172 |     0 |      8800 |  1.95 |
+| F7 Muxes                   |  176 |     0 |      8800 |  2.00 |
 | F8 Muxes                   |    0 |     0 |      4400 |  0.00 |
 +----------------------------+------+-------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
@@ -59,7 +59,7 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 682   |          Yes |         Set |            - |
-| 7221  |          Yes |       Reset |            - |
+| 7223  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -93,7 +93,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+--------+
 |          Site Type          | Used | Fixed | Available |  Util% |
 +-----------------------------+------+-------+-----------+--------+
-| Bonded IOB                  |   54 |     0 |       100 |  54.00 |
+| Bonded IOB                  |   53 |     0 |       100 |  53.00 |
 | Bonded IPADs                |    0 |     0 |         2 |   0.00 |
 | Bonded IOPADs               |  130 |     0 |       130 | 100.00 |
 | PHY_CONTROL                 |    0 |     0 |         2 |   0.00 |
@@ -150,22 +150,22 @@ Table of Contents
 +----------+------+----------------------+
 | Ref Name | Used |  Functional Category |
 +----------+------+----------------------+
-| FDRE     | 7221 |         Flop & Latch |
-| LUT6     | 3222 |                  LUT |
-| LUT1     | 1432 |                  LUT |
-| LUT4     | 1393 |                  LUT |
-| LUT5     | 1332 |                  LUT |
-| LUT3     |  997 |                  LUT |
-| LUT2     |  796 |                  LUT |
+| FDRE     | 7223 |         Flop & Latch |
+| LUT6     | 3223 |                  LUT |
+| LUT1     | 1449 |                  LUT |
+| LUT4     | 1390 |                  LUT |
+| LUT5     | 1325 |                  LUT |
+| LUT3     | 1002 |                  LUT |
+| LUT2     |  800 |                  LUT |
 | FDSE     |  682 |         Flop & Latch |
 | CARRY4   |  526 |           CarryLogic |
 | SRL16E   |  244 |   Distributed Memory |
-| MUXF7    |  172 |                MuxFx |
+| MUXF7    |  176 |                MuxFx |
 | BIBUF    |  130 |                   IO |
 | SRLC32E  |   47 |   Distributed Memory |
-| IBUF     |   32 |                   IO |
-| OBUFT    |   23 |                   IO |
-| OBUF     |   19 |                   IO |
+| IBUF     |   31 |                   IO |
+| OBUF     |   22 |                   IO |
+| OBUFT    |   20 |                   IO |
 | ODDR     |    8 |                   IO |
 | BUFG     |    2 |                Clock |
 | XADC     |    1 |               Others |

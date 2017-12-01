@@ -715,11 +715,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Oct 03 19:39:13 UTC 2017</spirit:value>
+            <spirit:value>Fri Dec 01 20:38:44 UTC 2017</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:d4100a38</spirit:value>
+            <spirit:value>7:1dcfd0ff</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -734,11 +734,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Oct 03 19:39:16 UTC 2017</spirit:value>
+            <spirit:value>Fri Dec 01 20:38:47 UTC 2017</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:d4100a38</spirit:value>
+            <spirit:value>7:1dcfd0ff</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -765,11 +765,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Oct 03 19:39:13 UTC 2017</spirit:value>
+            <spirit:value>Fri Dec 01 20:38:44 UTC 2017</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:60260590</spirit:value>
+            <spirit:value>7:c10da6ef</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -784,11 +784,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Oct 03 19:39:16 UTC 2017</spirit:value>
+            <spirit:value>Fri Dec 01 20:38:47 UTC 2017</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:60260590</spirit:value>
+            <spirit:value>7:c10da6ef</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -802,11 +802,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Tue Oct 03 19:39:16 UTC 2017</spirit:value>
+            <spirit:value>Fri Dec 01 20:38:47 UTC 2017</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>7:d4100a38</spirit:value>
+            <spirit:value>7:1dcfd0ff</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1651,9 +1651,9 @@
         <spirit:userFileType>xdc</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd</spirit:name>
+        <spirit:name>../../ipshared/a009/hdl/axi_uart16550_v2_0_vh_rfs.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:logicalName>axi_uart16550_v2_0_15</spirit:logicalName>
+        <spirit:logicalName>axi_uart16550_v2_0_14</spirit:logicalName>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -1731,10 +1731,10 @@
     <spirit:fileSet>
       <spirit:name>xilinx_vhdlbehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>../../ipshared/3937/hdl/axi_uart16550_v2_0_vh_rfs.vhd</spirit:name>
+        <spirit:name>../../ipshared/a009/hdl/axi_uart16550_v2_0_vh_rfs.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-        <spirit:logicalName>axi_uart16550_v2_0_15</spirit:logicalName>
+        <spirit:logicalName>axi_uart16550_v2_0_14</spirit:logicalName>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -1831,7 +1831,7 @@
   <spirit:vendorExtensions>
     <xilinx:coreExtensions>
       <xilinx:displayName>AXI UART16550</xilinx:displayName>
-      <xilinx:coreRevision>15</xilinx:coreRevision>
+      <xilinx:coreRevision>14</xilinx:coreRevision>
       <xilinx:configElementInfos>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.ACLK.CLK_DOMAIN" xilinx:valueSource="default_prop"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.ACLK.FREQ_HZ" xilinx:valueSource="user_prop"/>
@@ -1865,9 +1865,9 @@
       </xilinx:configElementInfos>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
-      <xilinx:xilinxVersion>2017.2</xilinx:xilinxVersion>
+      <xilinx:xilinxVersion>2017.2_sdx</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="d473600e"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="7778ef7a"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="d72c40cc"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="ead35266"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="9fa8f3ff"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="b5d66fd2"/>

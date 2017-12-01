@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
-| Date         : Tue Oct  3 16:02:12 2017
-| Host         : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Fri Dec  1 14:43:00 2017
+| Host         : aerotennaKS running 64-bit unknown
 | Command      : report_drc -file ocpoc_top_drc_routed.rpt -pb ocpoc_top_drc_routed.pb -rpx ocpoc_top_drc_routed.rpx
 | Design       : ocpoc_top
 | Device       : xc7z010clg400-1

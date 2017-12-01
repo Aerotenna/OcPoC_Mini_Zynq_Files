@@ -12,7 +12,7 @@
 module ocpoc_top
 (   input CAN_PS_0_rx,
     output CAN_PS_0_tx,
-    input pulse_train_in,
+    //input pulse_train_in,
     input Vaux15_v_n,
     input Vaux15_v_p,
     inout [14:0]DDR_addr,
@@ -154,9 +154,9 @@ armps_wrapper  armps_wrapper_i
      .pwm_6(  pwm_6),
      .pwm_7( pwm_7 ),
      .pwm_8(pwm_8),
-//     .pwm_9(pwm_9),
-//     .pwm_10(pwm_10),
-//     .pwm_11(pwm_11),
+     .pwm_9(pwm_9),
+     .pwm_10(pwm_10),
+     .pwm_11(pwm_11),
      .spi_ps_0_io0_io( SPI_PS_0_io0_io ),
      .spi_ps_0_io1_io(  SPI_PS_0_io1_io),
      .spi_ps_0_sck_io( SPI_PS_0_sck_io ),
@@ -252,7 +252,7 @@ armps_wrapper  armps_wrapper_i
      .UART_PL_7_txd(UART_PL_7_txd),
      .UART_PL_7_txrdyn(),
     
-     .pulse_train_in(pulse_train_in),
+     .pulse_train_in(sbus_in),
      
      .Vaux15_v_n(Vaux15_v_n),
      .Vaux15_v_p(Vaux15_v_p));

@@ -1,6 +1,6 @@
 #PPM
-set_property PACKAGE_PIN R17 [get_ports pulse_train_in]
-set_property IOSTANDARD LVCMOS33 [get_ports pulse_train_in]
+#set_property PACKAGE_PIN R17 [get_ports pulse_train_in]
+#set_property IOSTANDARD LVCMOS33 [get_ports pulse_train_in]
 
 #Telemetry UART ttyPS1
 set_property PACKAGE_PIN L16 [get_ports UART_PS_0_rxd]   
@@ -57,10 +57,8 @@ set_property IOSTANDARD LVCMOS33 [get_ports SPI_PS_1_ss_io]
 
 
 #CAN BUS
-set_property PACKAGE_PIN H18 [get_ports CAN_PS_0_rx]
-set_property PACKAGE_PIN C20 [get_ports CAN_PS_0_tx]
-#set_property PACKAGE_PIN C20 [get_ports CAN_PS_0_rx]
-#set_property PACKAGE_PIN H18 [get_ports CAN_PS_0_tx]
+set_property PACKAGE_PIN C20 [get_ports CAN_PS_0_rx]
+set_property PACKAGE_PIN H18 [get_ports CAN_PS_0_tx]
 set_property IOSTANDARD LVCMOS33 [get_ports CAN_PS_0_rx]
 set_property IOSTANDARD LVCMOS33 [get_ports CAN_PS_0_tx]
 

@@ -42,7 +42,7 @@
 			clocks = <0x1 0x3>;
 			clock-latency = <0x3e8>;
 			cpu0-supply = <0x2>;
-			operating-points = <0xa2c2a 0xf4240 0x51615 0xf4240>;
+			operating-points = <0xa2c2a 0xf4240>;
 		};
 
 		cpu@1 {

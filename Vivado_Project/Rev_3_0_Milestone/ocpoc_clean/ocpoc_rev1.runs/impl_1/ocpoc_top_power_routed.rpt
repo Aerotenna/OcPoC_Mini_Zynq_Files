@@ -1,8 +1,8 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
-| Date             : Tue Oct  3 16:02:17 2017
-| Host             : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+| Tool Version     : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date             : Fri Dec  1 14:43:05 2017
+| Host             : aerotennaKS running 64-bit unknown
 | Command          : report_power -file ocpoc_top_power_routed.rpt -pb ocpoc_top_power_summary_routed.pb -rpx ocpoc_top_power_routed.rpx
 | Design           : ocpoc_top
 | Device           : xc7z010clg400-1
@@ -30,12 +30,12 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 1.712 |
-| Dynamic (W)              | 1.582 |
+| Total On-Chip Power (W)  | 1.714 |
+| Dynamic (W)              | 1.583 |
 | Device Static (W)        | 0.131 |
 | Effective TJA (C/W)      | 11.5  |
-| Max Ambient (C)          | 65.3  |
-| Junction Temperature (C) | 44.7  |
+| Max Ambient (C)          | 65.2  |
+| Junction Temperature (C) | 44.8  |
 | Confidence Level         | Low   |
 | Setting File             | ---   |
 | Simulation Activity File | ---   |
@@ -49,21 +49,21 @@ Table of Contents
 +-------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
-| Clocks                  |     0.025 |        4 |       --- |             --- |
-| Slice Logic             |     0.005 |    16184 |       --- |             --- |
-|   LUT as Logic          |     0.005 |     6374 |     17600 |           36.22 |
-|   CARRY4                |    <0.001 |      344 |      4400 |            7.82 |
-|   Register              |    <0.001 |     7297 |     35200 |           20.73 |
-|   F7/F8 Muxes           |    <0.001 |      172 |     17600 |            0.98 |
+| Clocks                  |     0.026 |        4 |       --- |             --- |
+| Slice Logic             |     0.005 |    16731 |       --- |             --- |
+|   LUT as Logic          |     0.005 |     6598 |     17600 |           37.49 |
+|   CARRY4                |    <0.001 |      422 |      4400 |            9.59 |
+|   Register              |    <0.001 |     7494 |     35200 |           21.29 |
+|   F7/F8 Muxes           |    <0.001 |      176 |     17600 |            1.00 |
 |   LUT as Shift Register |    <0.001 |      199 |      6000 |            3.32 |
-|   Others                |     0.000 |      570 |       --- |             --- |
-| Signals                 |     0.008 |    12086 |       --- |             --- |
+|   Others                |     0.000 |      574 |       --- |             --- |
+| Signals                 |     0.008 |    12472 |       --- |             --- |
 | Block RAM               |    <0.001 |      0.5 |        60 |            0.83 |
-| I/O                     |     0.012 |       54 |       100 |           54.00 |
+| I/O                     |     0.012 |       53 |       100 |           53.00 |
 | XADC                    |     0.002 |        1 |       --- |             --- |
 | PS7                     |     1.530 |        1 |       --- |             --- |
 | Static Power            |     0.131 |          |           |                 |
-| Total                   |     1.712 |          |           |                 |
+| Total                   |     1.714 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -73,7 +73,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.046 |       0.039 |      0.007 |
+| Vccint    |       1.000 |     0.047 |       0.040 |      0.007 |
 | Vccaux    |       1.800 |     0.012 |       0.000 |      0.012 |
 | Vcco33    |       3.300 |     0.004 |       0.003 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -150,14 +150,16 @@ Table of Contents
 +---------------------------------------------------------------+-----------+
 | Name                                                          | Power (W) |
 +---------------------------------------------------------------+-----------+
-| ocpoc_top                                                     |     1.582 |
-|   armps_wrapper_i                                             |     1.579 |
-|     armps_i                                                   |     1.570 |
-|       AXI_OcPoC_PWM_Controller_0                              |     0.003 |
-|         inst                                                  |     0.003 |
-|           AXI_OcPoC_PWM_Controller_v1_0_S00_AXI_inst          |     0.002 |
+| ocpoc_top                                                     |     1.583 |
+|   armps_wrapper_i                                             |     1.580 |
+|     armps_i                                                   |     1.571 |
+|       AXI_OcPoC_PWM_Controller_0                              |     0.004 |
+|         inst                                                  |     0.004 |
+|           AXI_OcPoC_PWM_Controller_v1_0_S00_AXI_inst          |     0.003 |
 |           pwm_inst0                                           |    <0.001 |
 |           pwm_inst1                                           |    <0.001 |
+|           pwm_inst10                                          |    <0.001 |
+|           pwm_inst11                                          |    <0.001 |
 |           pwm_inst2                                           |    <0.001 |
 |           pwm_inst3                                           |    <0.001 |
 |           pwm_inst4                                           |    <0.001 |
@@ -165,9 +167,10 @@ Table of Contents
 |           pwm_inst6                                           |    <0.001 |
 |           pwm_inst7                                           |    <0.001 |
 |           pwm_inst8                                           |    <0.001 |
-|       RC_Receiver_Input_0                                     |     0.001 |
-|         inst                                                  |     0.001 |
-|           RC_Receiver_Input_v1_0_S00_AXI_inst                 |     0.001 |
+|           pwm_inst9                                           |    <0.001 |
+|       RC_Receiver_Input_0                                     |     0.002 |
+|         inst                                                  |     0.002 |
+|           RC_Receiver_Input_v1_0_S00_AXI_inst                 |     0.002 |
 |             pulse_buffer_inst                                 |     0.001 |
 |               FIFO_SYNC_MACRO_inst                            |    <0.001 |
 |               pulse_timer_inst                                |    <0.001 |
@@ -434,9 +437,9 @@ Table of Contents
 |       processing_system7_0                                    |     1.531 |
 |         inst                                                  |     1.531 |
 |       processing_system7_0_axi_periph                         |     0.007 |
-|         m00_couplers                                          |    <0.001 |
-|           auto_cc                                             |    <0.001 |
-|             inst                                              |    <0.001 |
+|         m00_couplers                                          |     0.001 |
+|           auto_cc                                             |     0.001 |
+|             inst                                              |     0.001 |
 |               gen_clock_conv.gen_async_lite_conv.ar_handshake |    <0.001 |
 |                 handshake                                     |    <0.001 |
 |                   xpm_cdc_single_dest2src_inst                |    <0.001 |

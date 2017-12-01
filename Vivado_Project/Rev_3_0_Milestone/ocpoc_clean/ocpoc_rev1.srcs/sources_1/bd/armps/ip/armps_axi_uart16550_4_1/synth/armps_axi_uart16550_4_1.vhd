@@ -47,14 +47,14 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:ip:axi_uart16550:2.0
--- IP Revision: 15
+-- IP Revision: 14
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 
-LIBRARY axi_uart16550_v2_0_15;
-USE axi_uart16550_v2_0_15.axi_uart16550;
+LIBRARY axi_uart16550_v2_0_14;
+USE axi_uart16550_v2_0_14.axi_uart16550;
 
 ENTITY armps_axi_uart16550_4_1 IS
   PORT (
@@ -152,11 +152,11 @@ ARCHITECTURE armps_axi_uart16550_4_1_arch OF armps_axi_uart16550_4_1 IS
     );
   END COMPONENT axi_uart16550;
   ATTRIBUTE X_CORE_INFO : STRING;
-  ATTRIBUTE X_CORE_INFO OF armps_axi_uart16550_4_1_arch: ARCHITECTURE IS "axi_uart16550,Vivado 2017.2";
+  ATTRIBUTE X_CORE_INFO OF armps_axi_uart16550_4_1_arch: ARCHITECTURE IS "axi_uart16550,Vivado 2017.2_sdx";
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF armps_axi_uart16550_4_1_arch : ARCHITECTURE IS "armps_axi_uart16550_4_1,axi_uart16550,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF armps_axi_uart16550_4_1_arch: ARCHITECTURE IS "armps_axi_uart16550_4_1,axi_uart16550,{x_ipProduct=Vivado 2017.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=axi_uart16550,x_ipVersion=2.0,x_ipCoreRevision=15,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_FAMILY=zynq,C_S_AXI_ACLK_FREQ_HZ=100000000,C_S_AXI_ADDR_WIDTH=13,C_S_AXI_DATA_WIDTH=32,C_IS_A_16550=1,C_HAS_EXTERNAL_XIN=0,C_HAS_EXTERNAL_RCLK=0,C_EXTERNAL_XIN_CLK_HZ=25000000}";
+  ATTRIBUTE CORE_GENERATION_INFO OF armps_axi_uart16550_4_1_arch: ARCHITECTURE IS "armps_axi_uart16550_4_1,axi_uart16550,{x_ipProduct=Vivado 2017.2_sdx,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=axi_uart16550,x_ipVersion=2.0,x_ipCoreRevision=14,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_FAMILY=zynq,C_S_AXI_ACLK_FREQ_HZ=100000000,C_S_AXI_ADDR_WIDTH=13,C_S_AXI_DATA_WIDTH=32,C_IS_A_16550=1,C_HAS_EXTERNAL_XIN=0,C_HAS_EXTERNAL_RCLK=0,C_EXTERNAL_XIN_CLK_HZ=25000000}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_INFO OF s_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 ACLK CLK";
   ATTRIBUTE X_INTERFACE_INFO OF s_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 ARESETN RST";

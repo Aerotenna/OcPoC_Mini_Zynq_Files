@@ -50,7 +50,7 @@
 // IP VLNV: Aerotenna:user:RC_Receiver_Input:1.0
 // IP Revision: 5
 
-(* X_CORE_INFO = "RC_Receiver_Input_v1_0,Vivado 2017.2" *)
+(* X_CORE_INFO = "RC_Receiver_Input_v1_0,Vivado 2017.2_sdx" *)
 (* CHECK_LICENSE_TYPE = "armps_RC_Receiver_Input_0_0,RC_Receiver_Input_v1_0,{}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module armps_RC_Receiver_Input_0_0 (

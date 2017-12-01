@@ -7,20 +7,20 @@
 # 
 
 if [ -z "$PATH" ]; then
-  PATH=/opt/Xilinx/SDK/2017.2/bin:/opt/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/lin64:/opt/Xilinx/Vivado/2017.2/bin
+  PATH=/opt/Xilinx/SDx/2017.2/SDK/bin:/opt/Xilinx/SDx/2017.2/Vivado/ids_lite/ISE/bin/lin64:/opt/Xilinx/SDx/2017.2/Vivado/bin
 else
-  PATH=/opt/Xilinx/SDK/2017.2/bin:/opt/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/lin64:/opt/Xilinx/Vivado/2017.2/bin:$PATH
+  PATH=/opt/Xilinx/SDx/2017.2/SDK/bin:/opt/Xilinx/SDx/2017.2/Vivado/ids_lite/ISE/bin/lin64:/opt/Xilinx/SDx/2017.2/Vivado/bin:$PATH
 fi
 export PATH
 
 if [ -z "$LD_LIBRARY_PATH" ]; then
-  LD_LIBRARY_PATH=/opt/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/lin64
+  LD_LIBRARY_PATH=/opt/Xilinx/SDx/2017.2/Vivado/ids_lite/ISE/lib/lin64
 else
-  LD_LIBRARY_PATH=/opt/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/lin64:$LD_LIBRARY_PATH
+  LD_LIBRARY_PATH=/opt/Xilinx/SDx/2017.2/Vivado/ids_lite/ISE/lib/lin64:$LD_LIBRARY_PATH
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.runs/synth_1'
+HD_PWD='/home/ashirley/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

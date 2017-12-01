@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Jul 12 11:56:31 2017
+# Process ID: 3896
+# Current directory: c:/Users/Aerotenna/Desktop/AXI_OcPoC/AXI_OcPoC_PWM_Controller_1.0/axi_ocpoc_pwm_controller_v1_0_project/AXI_OcPoC_PWM_Controller_v1_0_project.runs/synth_1
+# Command line: vivado.exe -log AXI_OcPoC_PWM_Controller_v1_0.vds -mode batch -messageDb vivado.pb -notrace -source AXI_OcPoC_PWM_Controller_v1_0.tcl
+# Log file: c:/Users/Aerotenna/Desktop/AXI_OcPoC/AXI_OcPoC_PWM_Controller_1.0/axi_ocpoc_pwm_controller_v1_0_project/AXI_OcPoC_PWM_Controller_v1_0_project.runs/synth_1/AXI_OcPoC_PWM_Controller_v1_0.vds
+# Journal file: c:/Users/Aerotenna/Desktop/AXI_OcPoC/AXI_OcPoC_PWM_Controller_1.0/axi_ocpoc_pwm_controller_v1_0_project/AXI_OcPoC_PWM_Controller_v1_0_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source AXI_OcPoC_PWM_Controller_v1_0.tcl -notrace

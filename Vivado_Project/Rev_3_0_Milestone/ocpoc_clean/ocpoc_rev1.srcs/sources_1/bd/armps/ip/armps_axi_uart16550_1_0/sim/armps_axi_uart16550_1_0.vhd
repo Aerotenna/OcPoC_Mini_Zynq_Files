@@ -47,14 +47,14 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: xilinx.com:ip:axi_uart16550:2.0
--- IP Revision: 15
+-- IP Revision: 14
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
 
-LIBRARY axi_uart16550_v2_0_15;
-USE axi_uart16550_v2_0_15.axi_uart16550;
+LIBRARY axi_uart16550_v2_0_14;
+USE axi_uart16550_v2_0_14.axi_uart16550;
 
 ENTITY armps_axi_uart16550_1_0 IS
   PORT (

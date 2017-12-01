@@ -1,8 +1,8 @@
 //Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
-//Tool Version: Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
-//Date        : Tue Oct  3 14:38:59 2017
-//Host        : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+//Tool Version: Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+//Date        : Fri Dec  1 14:38:33 2017
+//Host        : aerotennaKS running 64-bit unknown
 //Command     : generate_target armps_wrapper.bd
 //Design      : armps_wrapper
 //Purpose     : IP block netlist
@@ -132,6 +132,8 @@ module armps_wrapper
     pulse_train_in,
     pwm_0,
     pwm_1,
+    pwm_10,
+    pwm_11,
     pwm_2,
     pwm_3,
     pwm_4,
@@ -139,6 +141,7 @@ module armps_wrapper
     pwm_6,
     pwm_7,
     pwm_8,
+    pwm_9,
     spi_ps_0_io0_io,
     spi_ps_0_io1_io,
     spi_ps_0_sck_io,
@@ -273,6 +276,8 @@ module armps_wrapper
   input pulse_train_in;
   output pwm_0;
   output pwm_1;
+  output pwm_10;
+  output pwm_11;
   output pwm_2;
   output pwm_3;
   output pwm_4;
@@ -280,6 +285,7 @@ module armps_wrapper
   output pwm_6;
   output pwm_7;
   output pwm_8;
+  output pwm_9;
   inout spi_ps_0_io0_io;
   inout spi_ps_0_io1_io;
   inout spi_ps_0_sck_io;
@@ -451,6 +457,8 @@ module armps_wrapper
   wire pulse_train_in;
   wire pwm_0;
   wire pwm_1;
+  wire pwm_10;
+  wire pwm_11;
   wire pwm_2;
   wire pwm_3;
   wire pwm_4;
@@ -458,6 +466,7 @@ module armps_wrapper
   wire pwm_6;
   wire pwm_7;
   wire pwm_8;
+  wire pwm_9;
   wire spi_ps_0_io0_i;
   wire spi_ps_0_io0_io;
   wire spi_ps_0_io0_o;
@@ -670,13 +679,16 @@ module armps_wrapper
         .pulse_train_in(pulse_train_in),
         .pwm_0(pwm_0),
         .pwm_1(pwm_1),
+        .pwm_10(pwm_10),
+        .pwm_11(pwm_11),
         .pwm_2(pwm_2),
         .pwm_3(pwm_3),
         .pwm_4(pwm_4),
         .pwm_5(pwm_5),
         .pwm_6(pwm_6),
         .pwm_7(pwm_7),
-        .pwm_8(pwm_8));
+        .pwm_8(pwm_8),
+        .pwm_9(pwm_9));
   IOBUF iic_pl_0_scl_iobuf
        (.I(iic_pl_0_scl_o),
         .IO(iic_pl_0_scl_io),

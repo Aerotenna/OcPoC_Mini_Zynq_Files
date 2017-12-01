@@ -1,0 +1,309 @@
+
+*** Running vivado
+    with args -log AXI_OcPoC_PWM_Controller_v1_0.vds -m64 -mode batch -messageDb vivado.pb -notrace -source AXI_OcPoC_PWM_Controller_v1_0.tcl
+
+
+****** Vivado v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source AXI_OcPoC_PWM_Controller_v1_0.tcl -notrace
+Command: synth_design -top AXI_OcPoC_PWM_Controller_v1_0 -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 287.379 ; gain = 115.883
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'AXI_OcPoC_PWM_Controller_v1_0' [c:/users/aerotenna/desktop/axi_ocpoc/axi_ocpoc_pwm_controller_1.0/hdl/AXI_OcPoC_PWM_Controller_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'AXI_OcPoC_PWM_Controller_v1_0_S00_AXI' [c:/users/aerotenna/desktop/axi_ocpoc/axi_ocpoc_pwm_controller_1.0/hdl/AXI_OcPoC_PWM_Controller_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/users/aerotenna/desktop/axi_ocpoc/axi_ocpoc_pwm_controller_1.0/hdl/AXI_OcPoC_PWM_Controller_v1_0_S00_AXI.v:281]
+INFO: [Synth 8-226] default block is never used [c:/users/aerotenna/desktop/axi_ocpoc/axi_ocpoc_pwm_controller_1.0/hdl/AXI_OcPoC_PWM_Controller_v1_0_S00_AXI.v:646]
+INFO: [Synth 8-256] done synthesizing module 'AXI_OcPoC_PWM_Controller_v1_0_S00_AXI' (1#1) [c:/users/aerotenna/desktop/axi_ocpoc/axi_ocpoc_pwm_controller_1.0/hdl/AXI_OcPoC_PWM_Controller_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-638] synthesizing module 'pwm_chan' [c:/users/aerotenna/desktop/axi_ocpoc/axi_ocpoc_pwm_controller_1.0/src/pwm_chan.v:3]
+INFO: [Synth 8-256] done synthesizing module 'pwm_chan' (2#1) [c:/users/aerotenna/desktop/axi_ocpoc/axi_ocpoc_pwm_controller_1.0/src/pwm_chan.v:3]
+INFO: [Synth 8-256] done synthesizing module 'AXI_OcPoC_PWM_Controller_v1_0' (3#1) [c:/users/aerotenna/desktop/axi_ocpoc/axi_ocpoc_pwm_controller_1.0/hdl/AXI_OcPoC_PWM_Controller_v1_0.v:4]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 327.398 ; gain = 155.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 327.398 ; gain = 155.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 327.398 ; gain = 155.902
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 372.305 ; gain = 200.809
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 16    
++---Registers : 
+	               32 Bit    Registers := 49    
+	                7 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 21    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 32    
+	  32 Input     32 Bit        Muxes := 32    
+	   2 Input      1 Bit        Muxes := 20    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module AXI_OcPoC_PWM_Controller_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 33    
+	                7 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 32    
+	  32 Input     32 Bit        Muxes := 32    
+	   2 Input      1 Bit        Muxes := 4     
+Module pwm_chan 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 455.023 ; gain = 283.527
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 455.023 ; gain = 283.527
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 455.023 ; gain = 283.527
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'AXI_OcPoC_PWM_Controller_v1_0_S00_AXI_inst/\axi_rresp_reg[0] ' (FDRE) to 'AXI_OcPoC_PWM_Controller_v1_0_S00_AXI_inst/\axi_rresp_reg[1] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AXI_OcPoC_PWM_Controller_v1_0_S00_AXI_inst/\axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'AXI_OcPoC_PWM_Controller_v1_0_S00_AXI_inst/\axi_bresp_reg[0] ' (FDRE) to 'AXI_OcPoC_PWM_Controller_v1_0_S00_AXI_inst/\axi_bresp_reg[1] '
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AXI_OcPoC_PWM_Controller_v1_0_S00_AXI_inst/\axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (\axi_awaddr_reg[1] ) is unused and will be removed from module AXI_OcPoC_PWM_Controller_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_awaddr_reg[0] ) is unused and will be removed from module AXI_OcPoC_PWM_Controller_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_bresp_reg[1] ) is unused and will be removed from module AXI_OcPoC_PWM_Controller_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_bresp_reg[0] ) is unused and will be removed from module AXI_OcPoC_PWM_Controller_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_araddr_reg[1] ) is unused and will be removed from module AXI_OcPoC_PWM_Controller_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_araddr_reg[0] ) is unused and will be removed from module AXI_OcPoC_PWM_Controller_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_rresp_reg[1] ) is unused and will be removed from module AXI_OcPoC_PWM_Controller_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_rresp_reg[0] ) is unused and will be removed from module AXI_OcPoC_PWM_Controller_v1_0_S00_AXI.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 500.625 ; gain = 329.129
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 500.625 ; gain = 329.129
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 500.625 ; gain = 329.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 500.625 ; gain = 329.129
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 500.625 ; gain = 329.129
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 500.625 ; gain = 329.129
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 500.625 ; gain = 329.129
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 500.625 ; gain = 329.129
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 500.625 ; gain = 329.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 500.625 ; gain = 329.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 500.625 ; gain = 329.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 500.625 ; gain = 329.129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   416|
+|3     |LUT1   |  1009|
+|4     |LUT2   |    17|
+|5     |LUT3   |    19|
+|6     |LUT4   |   545|
+|7     |LUT5   |     2|
+|8     |LUT6   |   737|
+|9     |MUXF7  |   128|
+|10    |FDRE   |  2113|
+|11    |IBUF   |    53|
+|12    |OBUF   |    57|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------------------------------+--------------------------------------+------+
+|      |Instance                                     |Module                                |Cells |
++------+---------------------------------------------+--------------------------------------+------+
+|1     |top                                          |                                      |  5097|
+|2     |  AXI_OcPoC_PWM_Controller_v1_0_S00_AXI_inst |AXI_OcPoC_PWM_Controller_v1_0_S00_AXI |  2826|
+|3     |  pwm_inst0                                  |pwm_chan                              |   135|
+|4     |  pwm_inst1                                  |pwm_chan_0                            |   135|
+|5     |  pwm_inst10                                 |pwm_chan_1                            |   135|
+|6     |  pwm_inst11                                 |pwm_chan_2                            |   135|
+|7     |  pwm_inst12                                 |pwm_chan_3                            |   135|
+|8     |  pwm_inst13                                 |pwm_chan_4                            |   135|
+|9     |  pwm_inst14                                 |pwm_chan_5                            |   135|
+|10    |  pwm_inst15                                 |pwm_chan_6                            |   135|
+|11    |  pwm_inst2                                  |pwm_chan_7                            |   135|
+|12    |  pwm_inst3                                  |pwm_chan_8                            |   135|
+|13    |  pwm_inst4                                  |pwm_chan_9                            |   135|
+|14    |  pwm_inst5                                  |pwm_chan_10                           |   135|
+|15    |  pwm_inst6                                  |pwm_chan_11                           |   135|
+|16    |  pwm_inst7                                  |pwm_chan_12                           |   135|
+|17    |  pwm_inst8                                  |pwm_chan_13                           |   135|
+|18    |  pwm_inst9                                  |pwm_chan_14                           |   135|
++------+---------------------------------------------+--------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 500.625 ; gain = 329.129
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 500.625 ; gain = 282.535
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 500.625 ; gain = 329.129
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 469 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 544.961 ; gain = 340.430
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 544.961 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 12 11:56:47 2017...

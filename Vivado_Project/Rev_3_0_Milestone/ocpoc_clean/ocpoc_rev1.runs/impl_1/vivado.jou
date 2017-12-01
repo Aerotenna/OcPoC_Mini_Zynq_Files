@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2017.2 (64-bit)
-# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
-# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
-# Start of session at: Tue Oct  3 16:00:46 2017
-# Process ID: 26036
-# Current directory: /home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.runs/impl_1
+# Vivado v2017.2_sdx (64-bit)
+# SW Build 1972098 on Wed Aug 23 11:34:38 MDT 2017
+# IP Build 1971916 on Wed Aug 23 13:11:02 MDT 2017
+# Start of session at: Fri Dec  1 14:43:52 2017
+# Process ID: 6689
+# Current directory: /home/ashirley/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.runs/impl_1
 # Command line: vivado -log ocpoc_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ocpoc_top.tcl -notrace
-# Log file: /home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.runs/impl_1/ocpoc_top.vdi
-# Journal file: /home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.runs/impl_1/vivado.jou
+# Log file: /home/ashirley/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.runs/impl_1/ocpoc_top.vdi
+# Journal file: /home/ashirley/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.runs/impl_1/vivado.jou
 #-----------------------------------------------------------
 source ocpoc_top.tcl -notrace

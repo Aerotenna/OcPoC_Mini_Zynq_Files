@@ -1,8 +1,8 @@
 //Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
-//Tool Version: Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
-//Date        : Tue Oct  3 14:38:59 2017
-//Host        : hding-pc running 64-bit Ubuntu 14.04.5 LTS
+//Tool Version: Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+//Date        : Fri Dec  1 14:38:33 2017
+//Host        : aerotennaKS running 64-bit unknown
 //Command     : generate_target armps.bd
 //Design      : armps
 //Purpose     : IP block netlist
@@ -185,13 +185,16 @@ module armps
     pulse_train_in,
     pwm_0,
     pwm_1,
+    pwm_10,
+    pwm_11,
     pwm_2,
     pwm_3,
     pwm_4,
     pwm_5,
     pwm_6,
     pwm_7,
-    pwm_8);
+    pwm_8,
+    pwm_9);
   input CAN_PS_0_rx;
   output CAN_PS_0_tx;
   inout [14:0]DDR_addr;
@@ -366,6 +369,8 @@ module armps
   input pulse_train_in;
   output pwm_0;
   output pwm_1;
+  output pwm_10;
+  output pwm_11;
   output pwm_2;
   output pwm_3;
   output pwm_4;
@@ -373,9 +378,12 @@ module armps
   output pwm_6;
   output pwm_7;
   output pwm_8;
+  output pwm_9;
 
   wire AXI_OcPoC_PWM_Controller_0_pwm0;
   wire AXI_OcPoC_PWM_Controller_0_pwm1;
+  wire AXI_OcPoC_PWM_Controller_0_pwm10;
+  wire AXI_OcPoC_PWM_Controller_0_pwm11;
   wire AXI_OcPoC_PWM_Controller_0_pwm2;
   wire AXI_OcPoC_PWM_Controller_0_pwm3;
   wire AXI_OcPoC_PWM_Controller_0_pwm4;
@@ -383,6 +391,7 @@ module armps
   wire AXI_OcPoC_PWM_Controller_0_pwm6;
   wire AXI_OcPoC_PWM_Controller_0_pwm7;
   wire AXI_OcPoC_PWM_Controller_0_pwm8;
+  wire AXI_OcPoC_PWM_Controller_0_pwm9;
   wire [0:0]Net;
   wire [0:0]Net1;
   wire Vaux15_1_V_N;
@@ -732,21 +741,21 @@ module armps
   wire [0:0]processing_system7_0_axi_periph_M06_AXI_WVALID;
   wire [31:0]processing_system7_0_axi_periph_M07_AXI_ARADDR;
   wire processing_system7_0_axi_periph_M07_AXI_ARREADY;
-  wire processing_system7_0_axi_periph_M07_AXI_ARVALID;
+  wire [0:0]processing_system7_0_axi_periph_M07_AXI_ARVALID;
   wire [31:0]processing_system7_0_axi_periph_M07_AXI_AWADDR;
   wire processing_system7_0_axi_periph_M07_AXI_AWREADY;
-  wire processing_system7_0_axi_periph_M07_AXI_AWVALID;
-  wire processing_system7_0_axi_periph_M07_AXI_BREADY;
+  wire [0:0]processing_system7_0_axi_periph_M07_AXI_AWVALID;
+  wire [0:0]processing_system7_0_axi_periph_M07_AXI_BREADY;
   wire [1:0]processing_system7_0_axi_periph_M07_AXI_BRESP;
   wire processing_system7_0_axi_periph_M07_AXI_BVALID;
   wire [31:0]processing_system7_0_axi_periph_M07_AXI_RDATA;
-  wire processing_system7_0_axi_periph_M07_AXI_RREADY;
+  wire [0:0]processing_system7_0_axi_periph_M07_AXI_RREADY;
   wire [1:0]processing_system7_0_axi_periph_M07_AXI_RRESP;
   wire processing_system7_0_axi_periph_M07_AXI_RVALID;
   wire [31:0]processing_system7_0_axi_periph_M07_AXI_WDATA;
   wire processing_system7_0_axi_periph_M07_AXI_WREADY;
   wire [3:0]processing_system7_0_axi_periph_M07_AXI_WSTRB;
-  wire processing_system7_0_axi_periph_M07_AXI_WVALID;
+  wire [0:0]processing_system7_0_axi_periph_M07_AXI_WVALID;
   wire [31:0]processing_system7_0_axi_periph_M08_AXI_ARADDR;
   wire processing_system7_0_axi_periph_M08_AXI_ARREADY;
   wire [0:0]processing_system7_0_axi_periph_M08_AXI_ARVALID;
@@ -1028,6 +1037,8 @@ module armps
   assign pulse_train_in_1 = pulse_train_in;
   assign pwm_0 = AXI_OcPoC_PWM_Controller_0_pwm0;
   assign pwm_1 = AXI_OcPoC_PWM_Controller_0_pwm1;
+  assign pwm_10 = AXI_OcPoC_PWM_Controller_0_pwm10;
+  assign pwm_11 = AXI_OcPoC_PWM_Controller_0_pwm11;
   assign pwm_2 = AXI_OcPoC_PWM_Controller_0_pwm2;
   assign pwm_3 = AXI_OcPoC_PWM_Controller_0_pwm3;
   assign pwm_4 = AXI_OcPoC_PWM_Controller_0_pwm4;
@@ -1035,9 +1046,12 @@ module armps
   assign pwm_6 = AXI_OcPoC_PWM_Controller_0_pwm6;
   assign pwm_7 = AXI_OcPoC_PWM_Controller_0_pwm7;
   assign pwm_8 = AXI_OcPoC_PWM_Controller_0_pwm8;
+  assign pwm_9 = AXI_OcPoC_PWM_Controller_0_pwm9;
   armps_AXI_OcPoC_PWM_Controller_0_0 AXI_OcPoC_PWM_Controller_0
        (.pwm0(AXI_OcPoC_PWM_Controller_0_pwm0),
         .pwm1(AXI_OcPoC_PWM_Controller_0_pwm1),
+        .pwm10(AXI_OcPoC_PWM_Controller_0_pwm10),
+        .pwm11(AXI_OcPoC_PWM_Controller_0_pwm11),
         .pwm2(AXI_OcPoC_PWM_Controller_0_pwm2),
         .pwm3(AXI_OcPoC_PWM_Controller_0_pwm3),
         .pwm4(AXI_OcPoC_PWM_Controller_0_pwm4),
@@ -1045,6 +1059,7 @@ module armps
         .pwm6(AXI_OcPoC_PWM_Controller_0_pwm6),
         .pwm7(AXI_OcPoC_PWM_Controller_0_pwm7),
         .pwm8(AXI_OcPoC_PWM_Controller_0_pwm8),
+        .pwm9(AXI_OcPoC_PWM_Controller_0_pwm9),
         .s00_axi_aclk(processing_system7_0_FCLK_CLK1),
         .s00_axi_araddr(processing_system7_0_axi_periph_M00_AXI_ARADDR),
         .s00_axi_aresetn(rst_processing_system7_0_50M_1_peripheral_aresetn),
@@ -2461,22 +2476,22 @@ module armps_processing_system7_0_axi_periph_0
   input M07_ACLK;
   input M07_ARESETN;
   output [31:0]M07_AXI_araddr;
-  input M07_AXI_arready;
-  output M07_AXI_arvalid;
+  input [0:0]M07_AXI_arready;
+  output [0:0]M07_AXI_arvalid;
   output [31:0]M07_AXI_awaddr;
-  input M07_AXI_awready;
-  output M07_AXI_awvalid;
-  output M07_AXI_bready;
+  input [0:0]M07_AXI_awready;
+  output [0:0]M07_AXI_awvalid;
+  output [0:0]M07_AXI_bready;
   input [1:0]M07_AXI_bresp;
-  input M07_AXI_bvalid;
+  input [0:0]M07_AXI_bvalid;
   input [31:0]M07_AXI_rdata;
-  output M07_AXI_rready;
+  output [0:0]M07_AXI_rready;
   input [1:0]M07_AXI_rresp;
-  input M07_AXI_rvalid;
+  input [0:0]M07_AXI_rvalid;
   output [31:0]M07_AXI_wdata;
-  input M07_AXI_wready;
+  input [0:0]M07_AXI_wready;
   output [3:0]M07_AXI_wstrb;
-  output M07_AXI_wvalid;
+  output [0:0]M07_AXI_wvalid;
   input M08_ACLK;
   input M08_ARESETN;
   output [31:0]M08_AXI_araddr;
@@ -2807,22 +2822,22 @@ module armps_processing_system7_0_axi_periph_0
   wire [3:0]m06_couplers_to_processing_system7_0_axi_periph_WSTRB;
   wire [0:0]m06_couplers_to_processing_system7_0_axi_periph_WVALID;
   wire [31:0]m07_couplers_to_processing_system7_0_axi_periph_ARADDR;
-  wire m07_couplers_to_processing_system7_0_axi_periph_ARREADY;
-  wire m07_couplers_to_processing_system7_0_axi_periph_ARVALID;
+  wire [0:0]m07_couplers_to_processing_system7_0_axi_periph_ARREADY;
+  wire [0:0]m07_couplers_to_processing_system7_0_axi_periph_ARVALID;
   wire [31:0]m07_couplers_to_processing_system7_0_axi_periph_AWADDR;
-  wire m07_couplers_to_processing_system7_0_axi_periph_AWREADY;
-  wire m07_couplers_to_processing_system7_0_axi_periph_AWVALID;
-  wire m07_couplers_to_processing_system7_0_axi_periph_BREADY;
+  wire [0:0]m07_couplers_to_processing_system7_0_axi_periph_AWREADY;
+  wire [0:0]m07_couplers_to_processing_system7_0_axi_periph_AWVALID;
+  wire [0:0]m07_couplers_to_processing_system7_0_axi_periph_BREADY;
   wire [1:0]m07_couplers_to_processing_system7_0_axi_periph_BRESP;
-  wire m07_couplers_to_processing_system7_0_axi_periph_BVALID;
+  wire [0:0]m07_couplers_to_processing_system7_0_axi_periph_BVALID;
   wire [31:0]m07_couplers_to_processing_system7_0_axi_periph_RDATA;
-  wire m07_couplers_to_processing_system7_0_axi_periph_RREADY;
+  wire [0:0]m07_couplers_to_processing_system7_0_axi_periph_RREADY;
   wire [1:0]m07_couplers_to_processing_system7_0_axi_periph_RRESP;
-  wire m07_couplers_to_processing_system7_0_axi_periph_RVALID;
+  wire [0:0]m07_couplers_to_processing_system7_0_axi_periph_RVALID;
   wire [31:0]m07_couplers_to_processing_system7_0_axi_periph_WDATA;
-  wire m07_couplers_to_processing_system7_0_axi_periph_WREADY;
+  wire [0:0]m07_couplers_to_processing_system7_0_axi_periph_WREADY;
   wire [3:0]m07_couplers_to_processing_system7_0_axi_periph_WSTRB;
-  wire m07_couplers_to_processing_system7_0_axi_periph_WVALID;
+  wire [0:0]m07_couplers_to_processing_system7_0_axi_periph_WVALID;
   wire [31:0]m08_couplers_to_processing_system7_0_axi_periph_ARADDR;
   wire [0:0]m08_couplers_to_processing_system7_0_axi_periph_ARREADY;
   wire [0:0]m08_couplers_to_processing_system7_0_axi_periph_ARVALID;
@@ -3125,20 +3140,20 @@ module armps_processing_system7_0_axi_periph_0
   wire [27:24]xbar_to_m06_couplers_WSTRB;
   wire [6:6]xbar_to_m06_couplers_WVALID;
   wire [255:224]xbar_to_m07_couplers_ARADDR;
-  wire xbar_to_m07_couplers_ARREADY;
+  wire [0:0]xbar_to_m07_couplers_ARREADY;
   wire [7:7]xbar_to_m07_couplers_ARVALID;
   wire [255:224]xbar_to_m07_couplers_AWADDR;
-  wire xbar_to_m07_couplers_AWREADY;
+  wire [0:0]xbar_to_m07_couplers_AWREADY;
   wire [7:7]xbar_to_m07_couplers_AWVALID;
   wire [7:7]xbar_to_m07_couplers_BREADY;
   wire [1:0]xbar_to_m07_couplers_BRESP;
-  wire xbar_to_m07_couplers_BVALID;
+  wire [0:0]xbar_to_m07_couplers_BVALID;
   wire [31:0]xbar_to_m07_couplers_RDATA;
   wire [7:7]xbar_to_m07_couplers_RREADY;
   wire [1:0]xbar_to_m07_couplers_RRESP;
-  wire xbar_to_m07_couplers_RVALID;
+  wire [0:0]xbar_to_m07_couplers_RVALID;
   wire [255:224]xbar_to_m07_couplers_WDATA;
-  wire xbar_to_m07_couplers_WREADY;
+  wire [0:0]xbar_to_m07_couplers_WREADY;
   wire [31:28]xbar_to_m07_couplers_WSTRB;
   wire [7:7]xbar_to_m07_couplers_WVALID;
   wire [287:256]xbar_to_m08_couplers_ARADDR;
@@ -3347,14 +3362,14 @@ module armps_processing_system7_0_axi_periph_0
   assign M07_ACLK_1 = M07_ACLK;
   assign M07_ARESETN_1 = M07_ARESETN;
   assign M07_AXI_araddr[31:0] = m07_couplers_to_processing_system7_0_axi_periph_ARADDR;
-  assign M07_AXI_arvalid = m07_couplers_to_processing_system7_0_axi_periph_ARVALID;
+  assign M07_AXI_arvalid[0] = m07_couplers_to_processing_system7_0_axi_periph_ARVALID;
   assign M07_AXI_awaddr[31:0] = m07_couplers_to_processing_system7_0_axi_periph_AWADDR;
-  assign M07_AXI_awvalid = m07_couplers_to_processing_system7_0_axi_periph_AWVALID;
-  assign M07_AXI_bready = m07_couplers_to_processing_system7_0_axi_periph_BREADY;
-  assign M07_AXI_rready = m07_couplers_to_processing_system7_0_axi_periph_RREADY;
+  assign M07_AXI_awvalid[0] = m07_couplers_to_processing_system7_0_axi_periph_AWVALID;
+  assign M07_AXI_bready[0] = m07_couplers_to_processing_system7_0_axi_periph_BREADY;
+  assign M07_AXI_rready[0] = m07_couplers_to_processing_system7_0_axi_periph_RREADY;
   assign M07_AXI_wdata[31:0] = m07_couplers_to_processing_system7_0_axi_periph_WDATA;
   assign M07_AXI_wstrb[3:0] = m07_couplers_to_processing_system7_0_axi_periph_WSTRB;
-  assign M07_AXI_wvalid = m07_couplers_to_processing_system7_0_axi_periph_WVALID;
+  assign M07_AXI_wvalid[0] = m07_couplers_to_processing_system7_0_axi_periph_WVALID;
   assign M08_ACLK_1 = M08_ACLK;
   assign M08_ARESETN_1 = M08_ARESETN;
   assign M08_AXI_araddr[31:0] = m08_couplers_to_processing_system7_0_axi_periph_ARADDR;
@@ -3503,14 +3518,14 @@ module armps_processing_system7_0_axi_periph_0
   assign m06_couplers_to_processing_system7_0_axi_periph_RRESP = M06_AXI_rresp[1:0];
   assign m06_couplers_to_processing_system7_0_axi_periph_RVALID = M06_AXI_rvalid[0];
   assign m06_couplers_to_processing_system7_0_axi_periph_WREADY = M06_AXI_wready[0];
-  assign m07_couplers_to_processing_system7_0_axi_periph_ARREADY = M07_AXI_arready;
-  assign m07_couplers_to_processing_system7_0_axi_periph_AWREADY = M07_AXI_awready;
+  assign m07_couplers_to_processing_system7_0_axi_periph_ARREADY = M07_AXI_arready[0];
+  assign m07_couplers_to_processing_system7_0_axi_periph_AWREADY = M07_AXI_awready[0];
   assign m07_couplers_to_processing_system7_0_axi_periph_BRESP = M07_AXI_bresp[1:0];
-  assign m07_couplers_to_processing_system7_0_axi_periph_BVALID = M07_AXI_bvalid;
+  assign m07_couplers_to_processing_system7_0_axi_periph_BVALID = M07_AXI_bvalid[0];
   assign m07_couplers_to_processing_system7_0_axi_periph_RDATA = M07_AXI_rdata[31:0];
   assign m07_couplers_to_processing_system7_0_axi_periph_RRESP = M07_AXI_rresp[1:0];
-  assign m07_couplers_to_processing_system7_0_axi_periph_RVALID = M07_AXI_rvalid;
-  assign m07_couplers_to_processing_system7_0_axi_periph_WREADY = M07_AXI_wready;
+  assign m07_couplers_to_processing_system7_0_axi_periph_RVALID = M07_AXI_rvalid[0];
+  assign m07_couplers_to_processing_system7_0_axi_periph_WREADY = M07_AXI_wready[0];
   assign m08_couplers_to_processing_system7_0_axi_periph_ARREADY = M08_AXI_arready[0];
   assign m08_couplers_to_processing_system7_0_axi_periph_AWREADY = M08_AXI_awready[0];
   assign m08_couplers_to_processing_system7_0_axi_periph_BRESP = M08_AXI_bresp[1:0];
@@ -5344,94 +5359,94 @@ module m07_couplers_imp_1O9QGKF
   input M_ACLK;
   input M_ARESETN;
   output [31:0]M_AXI_araddr;
-  input M_AXI_arready;
-  output M_AXI_arvalid;
+  input [0:0]M_AXI_arready;
+  output [0:0]M_AXI_arvalid;
   output [31:0]M_AXI_awaddr;
-  input M_AXI_awready;
-  output M_AXI_awvalid;
-  output M_AXI_bready;
+  input [0:0]M_AXI_awready;
+  output [0:0]M_AXI_awvalid;
+  output [0:0]M_AXI_bready;
   input [1:0]M_AXI_bresp;
-  input M_AXI_bvalid;
+  input [0:0]M_AXI_bvalid;
   input [31:0]M_AXI_rdata;
-  output M_AXI_rready;
+  output [0:0]M_AXI_rready;
   input [1:0]M_AXI_rresp;
-  input M_AXI_rvalid;
+  input [0:0]M_AXI_rvalid;
   output [31:0]M_AXI_wdata;
-  input M_AXI_wready;
+  input [0:0]M_AXI_wready;
   output [3:0]M_AXI_wstrb;
-  output M_AXI_wvalid;
+  output [0:0]M_AXI_wvalid;
   input S_ACLK;
   input S_ARESETN;
   input [31:0]S_AXI_araddr;
-  output S_AXI_arready;
-  input S_AXI_arvalid;
+  output [0:0]S_AXI_arready;
+  input [0:0]S_AXI_arvalid;
   input [31:0]S_AXI_awaddr;
-  output S_AXI_awready;
-  input S_AXI_awvalid;
-  input S_AXI_bready;
+  output [0:0]S_AXI_awready;
+  input [0:0]S_AXI_awvalid;
+  input [0:0]S_AXI_bready;
   output [1:0]S_AXI_bresp;
-  output S_AXI_bvalid;
+  output [0:0]S_AXI_bvalid;
   output [31:0]S_AXI_rdata;
-  input S_AXI_rready;
+  input [0:0]S_AXI_rready;
   output [1:0]S_AXI_rresp;
-  output S_AXI_rvalid;
+  output [0:0]S_AXI_rvalid;
   input [31:0]S_AXI_wdata;
-  output S_AXI_wready;
+  output [0:0]S_AXI_wready;
   input [3:0]S_AXI_wstrb;
-  input S_AXI_wvalid;
+  input [0:0]S_AXI_wvalid;
 
   wire [31:0]m07_couplers_to_m07_couplers_ARADDR;
-  wire m07_couplers_to_m07_couplers_ARREADY;
-  wire m07_couplers_to_m07_couplers_ARVALID;
+  wire [0:0]m07_couplers_to_m07_couplers_ARREADY;
+  wire [0:0]m07_couplers_to_m07_couplers_ARVALID;
   wire [31:0]m07_couplers_to_m07_couplers_AWADDR;
-  wire m07_couplers_to_m07_couplers_AWREADY;
-  wire m07_couplers_to_m07_couplers_AWVALID;
-  wire m07_couplers_to_m07_couplers_BREADY;
+  wire [0:0]m07_couplers_to_m07_couplers_AWREADY;
+  wire [0:0]m07_couplers_to_m07_couplers_AWVALID;
+  wire [0:0]m07_couplers_to_m07_couplers_BREADY;
   wire [1:0]m07_couplers_to_m07_couplers_BRESP;
-  wire m07_couplers_to_m07_couplers_BVALID;
+  wire [0:0]m07_couplers_to_m07_couplers_BVALID;
   wire [31:0]m07_couplers_to_m07_couplers_RDATA;
-  wire m07_couplers_to_m07_couplers_RREADY;
+  wire [0:0]m07_couplers_to_m07_couplers_RREADY;
   wire [1:0]m07_couplers_to_m07_couplers_RRESP;
-  wire m07_couplers_to_m07_couplers_RVALID;
+  wire [0:0]m07_couplers_to_m07_couplers_RVALID;
   wire [31:0]m07_couplers_to_m07_couplers_WDATA;
-  wire m07_couplers_to_m07_couplers_WREADY;
+  wire [0:0]m07_couplers_to_m07_couplers_WREADY;
   wire [3:0]m07_couplers_to_m07_couplers_WSTRB;
-  wire m07_couplers_to_m07_couplers_WVALID;
+  wire [0:0]m07_couplers_to_m07_couplers_WVALID;
 
   assign M_AXI_araddr[31:0] = m07_couplers_to_m07_couplers_ARADDR;
-  assign M_AXI_arvalid = m07_couplers_to_m07_couplers_ARVALID;
+  assign M_AXI_arvalid[0] = m07_couplers_to_m07_couplers_ARVALID;
   assign M_AXI_awaddr[31:0] = m07_couplers_to_m07_couplers_AWADDR;
-  assign M_AXI_awvalid = m07_couplers_to_m07_couplers_AWVALID;
-  assign M_AXI_bready = m07_couplers_to_m07_couplers_BREADY;
-  assign M_AXI_rready = m07_couplers_to_m07_couplers_RREADY;
+  assign M_AXI_awvalid[0] = m07_couplers_to_m07_couplers_AWVALID;
+  assign M_AXI_bready[0] = m07_couplers_to_m07_couplers_BREADY;
+  assign M_AXI_rready[0] = m07_couplers_to_m07_couplers_RREADY;
   assign M_AXI_wdata[31:0] = m07_couplers_to_m07_couplers_WDATA;
   assign M_AXI_wstrb[3:0] = m07_couplers_to_m07_couplers_WSTRB;
-  assign M_AXI_wvalid = m07_couplers_to_m07_couplers_WVALID;
-  assign S_AXI_arready = m07_couplers_to_m07_couplers_ARREADY;
-  assign S_AXI_awready = m07_couplers_to_m07_couplers_AWREADY;
+  assign M_AXI_wvalid[0] = m07_couplers_to_m07_couplers_WVALID;
+  assign S_AXI_arready[0] = m07_couplers_to_m07_couplers_ARREADY;
+  assign S_AXI_awready[0] = m07_couplers_to_m07_couplers_AWREADY;
   assign S_AXI_bresp[1:0] = m07_couplers_to_m07_couplers_BRESP;
-  assign S_AXI_bvalid = m07_couplers_to_m07_couplers_BVALID;
+  assign S_AXI_bvalid[0] = m07_couplers_to_m07_couplers_BVALID;
   assign S_AXI_rdata[31:0] = m07_couplers_to_m07_couplers_RDATA;
   assign S_AXI_rresp[1:0] = m07_couplers_to_m07_couplers_RRESP;
-  assign S_AXI_rvalid = m07_couplers_to_m07_couplers_RVALID;
-  assign S_AXI_wready = m07_couplers_to_m07_couplers_WREADY;
+  assign S_AXI_rvalid[0] = m07_couplers_to_m07_couplers_RVALID;
+  assign S_AXI_wready[0] = m07_couplers_to_m07_couplers_WREADY;
   assign m07_couplers_to_m07_couplers_ARADDR = S_AXI_araddr[31:0];
-  assign m07_couplers_to_m07_couplers_ARREADY = M_AXI_arready;
-  assign m07_couplers_to_m07_couplers_ARVALID = S_AXI_arvalid;
+  assign m07_couplers_to_m07_couplers_ARREADY = M_AXI_arready[0];
+  assign m07_couplers_to_m07_couplers_ARVALID = S_AXI_arvalid[0];
   assign m07_couplers_to_m07_couplers_AWADDR = S_AXI_awaddr[31:0];
-  assign m07_couplers_to_m07_couplers_AWREADY = M_AXI_awready;
-  assign m07_couplers_to_m07_couplers_AWVALID = S_AXI_awvalid;
-  assign m07_couplers_to_m07_couplers_BREADY = S_AXI_bready;
+  assign m07_couplers_to_m07_couplers_AWREADY = M_AXI_awready[0];
+  assign m07_couplers_to_m07_couplers_AWVALID = S_AXI_awvalid[0];
+  assign m07_couplers_to_m07_couplers_BREADY = S_AXI_bready[0];
   assign m07_couplers_to_m07_couplers_BRESP = M_AXI_bresp[1:0];
-  assign m07_couplers_to_m07_couplers_BVALID = M_AXI_bvalid;
+  assign m07_couplers_to_m07_couplers_BVALID = M_AXI_bvalid[0];
   assign m07_couplers_to_m07_couplers_RDATA = M_AXI_rdata[31:0];
-  assign m07_couplers_to_m07_couplers_RREADY = S_AXI_rready;
+  assign m07_couplers_to_m07_couplers_RREADY = S_AXI_rready[0];
   assign m07_couplers_to_m07_couplers_RRESP = M_AXI_rresp[1:0];
-  assign m07_couplers_to_m07_couplers_RVALID = M_AXI_rvalid;
+  assign m07_couplers_to_m07_couplers_RVALID = M_AXI_rvalid[0];
   assign m07_couplers_to_m07_couplers_WDATA = S_AXI_wdata[31:0];
-  assign m07_couplers_to_m07_couplers_WREADY = M_AXI_wready;
+  assign m07_couplers_to_m07_couplers_WREADY = M_AXI_wready[0];
   assign m07_couplers_to_m07_couplers_WSTRB = S_AXI_wstrb[3:0];
-  assign m07_couplers_to_m07_couplers_WVALID = S_AXI_wvalid;
+  assign m07_couplers_to_m07_couplers_WVALID = S_AXI_wvalid[0];
 endmodule
 
 module m08_couplers_imp_13BVA9U

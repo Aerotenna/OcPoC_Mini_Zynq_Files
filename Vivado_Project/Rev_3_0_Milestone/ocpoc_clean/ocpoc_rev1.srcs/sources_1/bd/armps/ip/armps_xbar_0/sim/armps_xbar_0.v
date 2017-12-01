@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:ip:axi_crossbar:2.1
-// IP Revision: 14
+// IP Revision: 13
 
 `timescale 1ns/1ps
 
@@ -196,7 +196,7 @@ input wire [14 : 0] m_axi_rvalid;
 .0 M08_AXI RREADY [0:0] [8:8], xilinx.com:interface:aximm:1.0 M09_AXI RREADY [0:0] [9:9], xilinx.com:interface:aximm:1.0 M10_AXI RREADY [0:0] [10:10], xilinx.com:interface:aximm:1.0 M11_AXI RREADY [0:0] [11:11], xilinx.com:interface:aximm:1.0 M12_AXI RREADY [0:0] [12:12], xilinx.com:interface:aximm:1.0 M13_AXI RREADY [0:0] [13:13], xilinx.com:interface:aximm:1.0 M14_AXI RREADY [0:0] [14:14]" *)
 output wire [14 : 0] m_axi_rready;
 
-  axi_crossbar_v2_1_14_axi_crossbar #(
+  axi_crossbar_v2_1_13_axi_crossbar #(
     .C_FAMILY("zynq"),
     .C_NUM_SLAVE_SLOTS(1),
     .C_NUM_MASTER_SLOTS(15),

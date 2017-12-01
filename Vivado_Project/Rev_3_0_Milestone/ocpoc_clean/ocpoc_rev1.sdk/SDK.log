@@ -1283,3 +1283,29 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/fsbl/src/lscri
 16:06:31 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -arch zynq -o /home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/BOOT.bin -w on
 16:06:31 INFO  : Overwriting existing bif file /home/hding/Projects/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/BOOT.bif
 16:06:32 INFO  : Bootgen command execution is done.
+15:45:02 INFO  : Registering command handlers for SDK TCF services
+15:45:02 INFO  : Launching XSCT server: xsct -n -interactive /home/ashirley/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.sdk/temp_xsdb_launch_script.tcl
+15:45:07 INFO  : Validating SDSoC License...
+15:45:09 INFO  : License available for SDSoC
+15:45:09 INFO  : Validating SDAccel License...
+15:45:09 INFO  : XSCT server has started successfully.
+15:45:09 INFO  : Successfully done setting XSCT server connection channel  
+15:45:10 INFO  : License for SDAccel is unavailable
+15:45:17 INFO  : Successfully done setting SDK workspace  
+15:45:17 INFO  : Processing command line option -hwspec /home/ashirley/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+15:48:16 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -arch zynq -o /home/ashirley/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/BOOT.bin -w on
+15:48:16 INFO  : Overwriting existing bif file /home/ashirley/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/BOOT.bif
+15:48:16 INFO  : Bootgen command execution is done.
+14:45:20 INFO  : Registering command handlers for SDK TCF services
+14:45:21 INFO  : Launching XSCT server: xsct -n -interactive /home/ashirley/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.sdk/temp_xsdb_launch_script.tcl
+14:45:22 INFO  : Validating SDSoC License...
+14:45:24 INFO  : License available for SDSoC
+14:45:24 INFO  : Validating SDAccel License...
+14:45:24 INFO  : License for SDAccel is unavailable
+14:45:27 INFO  : XSCT server has started successfully.
+14:45:34 INFO  : Successfully done setting XSCT server connection channel  
+14:45:34 INFO  : Successfully done setting SDK workspace  
+14:45:34 INFO  : Processing command line option -hwspec /home/ashirley/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/ocpoc_rev1.sdk/ocpoc_top.hdf.
+14:48:05 INFO  : Invoking Bootgen: bootgen -image BOOT.bif -arch zynq -o /home/ashirley/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/BOOT.bin -w on
+14:48:05 INFO  : Overwriting existing bif file /home/ashirley/flight-control/trunk/OcPoC_Zynq_Mini/Rev_3_0_Milestone/ocpoc_clean/BOOT.bif
+14:48:06 INFO  : Bootgen command execution is done.

@@ -1,4 +1,319 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_rst_processing_system7_0_50M_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_rst_processing_system7_0_50M_1_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 11) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_rst_processing_system7_0_50M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_rst_processing_system7_0_50M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 11) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_processing_system7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_processing_system7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 14) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_6_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_6_0 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 15) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_5_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_5_0 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 15) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_4_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_4_1 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 15) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_4_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_4_0 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 15) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_1_1 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 15) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_1_0 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 15) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_0_1 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 15) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_uart16550_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_uart16550_0_0 (xilinx.com:ip:axi_uart16550:2.0) from (Rev. 15) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_iic_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_iic_1_1 (xilinx.com:ip:axi_iic:2.0) from (Rev. 16) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_iic_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_iic_1_0 (xilinx.com:ip:axi_iic:2.0) from (Rev. 16) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_iic_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_iic_0_1 (xilinx.com:ip:axi_iic:2.0) from (Rev. 16) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2_sdx (lin64) Build 1972098 Wed Aug 23 11:34:38 MDT 2017
+| Date         : Thu Oct 26 09:24:35 2017
+| Host         : aerotennaKS running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+----------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'armps_axi_iic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of armps_axi_iic_0_0 (xilinx.com:ip:axi_iic:2.0) from (Rev. 16) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
 | Date         : Tue Oct  3 14:36:04 2017

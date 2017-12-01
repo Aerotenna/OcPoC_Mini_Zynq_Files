@@ -50,7 +50,7 @@
 // IP VLNV: Aerotenna:user:AXI_OcPoC_PWM_Controller:1.0
 // IP Revision: 3
 
-(* X_CORE_INFO = "AXI_OcPoC_PWM_Controller_v1_0,Vivado 2017.2" *)
+(* X_CORE_INFO = "AXI_OcPoC_PWM_Controller_v1_0,Vivado 2017.2_sdx" *)
 (* CHECK_LICENSE_TYPE = "armps_AXI_OcPoC_PWM_Controller_0_0,AXI_OcPoC_PWM_Controller_v1_0,{}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module armps_AXI_OcPoC_PWM_Controller_0_0 (

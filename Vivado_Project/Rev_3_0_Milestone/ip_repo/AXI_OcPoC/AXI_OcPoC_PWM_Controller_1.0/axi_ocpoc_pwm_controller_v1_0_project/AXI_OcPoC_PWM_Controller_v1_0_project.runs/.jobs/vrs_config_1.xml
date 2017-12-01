@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="c:/users/aerotenna/desktop/axi_ocpoc/axi_ocpoc_pwm_controller_1.0/axi_ocpoc_pwm_controller_v1_0_project/AXI_OcPoC_PWM_Controller_v1_0_project.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

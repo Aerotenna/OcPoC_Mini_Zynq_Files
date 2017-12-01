@@ -48,12 +48,12 @@
 
 
 // IP VLNV: xilinx.com:ip:axi_clock_converter:2.1
-// IP Revision: 12
+// IP Revision: 11
 
-(* X_CORE_INFO = "axi_clock_converter_v2_1_12_axi_clock_converter,Vivado 2017.2" *)
-(* CHECK_LICENSE_TYPE = "armps_auto_cc_0,axi_clock_converter_v2_1_12_axi_clock_converter,{}" *)
-(* CORE_GENERATION_INFO = "armps_auto_cc_0,axi_clock_converter_v2_1_12_axi_clock_converter,{x_ipProduct=Vivado 2017.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=axi_clock_converter,x_ipVersion=2.1,x_ipCoreRevision=12,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_FAMILY=zynq,C_AXI_ID_WIDTH=1,C_AXI_ADDR_WIDTH=7,C_AXI_DATA_WIDTH=32,C_S_AXI_ACLK_RATIO=1,C_M_AXI_ACLK_RATIO=2,C_AXI_IS_ACLK_ASYNC=1,C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_USER_SIGNALS=0,C_AXI_AWUSER_WIDTH=1,C_AXI_ARUSER_WIDTH=1,C_AXI_WUSER_WIDTH=1,C_AXI_RUSER_WIDTH=1,C\
-_AXI_BUSER_WIDTH=1,C_AXI_SUPPORTS_WRITE=1,C_AXI_SUPPORTS_READ=1,C_SYNCHRONIZER_STAGE=3}" *)
+(* X_CORE_INFO = "axi_clock_converter_v2_1_11_axi_clock_converter,Vivado 2017.2_sdx" *)
+(* CHECK_LICENSE_TYPE = "armps_auto_cc_0,axi_clock_converter_v2_1_11_axi_clock_converter,{}" *)
+(* CORE_GENERATION_INFO = "armps_auto_cc_0,axi_clock_converter_v2_1_11_axi_clock_converter,{x_ipProduct=Vivado 2017.2_sdx,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=axi_clock_converter,x_ipVersion=2.1,x_ipCoreRevision=11,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_FAMILY=zynq,C_AXI_ID_WIDTH=1,C_AXI_ADDR_WIDTH=7,C_AXI_DATA_WIDTH=32,C_S_AXI_ACLK_RATIO=1,C_M_AXI_ACLK_RATIO=2,C_AXI_IS_ACLK_ASYNC=1,C_AXI_PROTOCOL=2,C_AXI_SUPPORTS_USER_SIGNALS=0,C_AXI_AWUSER_WIDTH=1,C_AXI_ARUSER_WIDTH=1,C_AXI_WUSER_WIDTH=1,C_AXI_RUSER_WIDTH\
+=1,C_AXI_BUSER_WIDTH=1,C_AXI_SUPPORTS_WRITE=1,C_AXI_SUPPORTS_READ=1,C_SYNCHRONIZER_STAGE=3}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module armps_auto_cc_0 (
   s_axi_aclk,
@@ -185,7 +185,7 @@ input wire m_axi_rvalid;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 M_AXI RREADY" *)
 output wire m_axi_rready;
 
-  axi_clock_converter_v2_1_12_axi_clock_converter #(
+  axi_clock_converter_v2_1_11_axi_clock_converter #(
     .C_FAMILY("zynq"),
     .C_AXI_ID_WIDTH(1),
     .C_AXI_ADDR_WIDTH(7),
